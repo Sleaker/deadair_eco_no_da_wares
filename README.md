@@ -1,4 +1,17 @@
-# DeadAir Eco
+# DeadAir Eco (No DA Wares)
+
+## What's different comparing to DeadAir Eco ?
+There is no more DA Wares in this fork, this means : 
+- No Labor Union Contracts
+- No Military Schematics
+- No Advanced Schematics
+and none of their associated production module
+
+I want to thank DeadAir a lot for all his work by the way !
+
+===
+# Original DeadAir Eco README
+
 ## Dynamic Universe
 Minimalized diff mod for economy changes in X4. Readme is often out of date on features or numbers so feel free to contact me on the Egosoft Discord or check patch notes on pushes.
 ## AiScripts\Build.Shiptrader.xml
@@ -32,8 +45,8 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - Attempted to reduce NPC ships loading up on deployables that serve no purpose other than to tank the economy.
 ## Libraries\mapdefaults.xml
 - Adjusts sector economy ratings to remove undocumented effect on station size generation.
-## Libraries\Modulegroups.xml
-- Added new groups for Advanced Schematics, Military Schematics, and Labor Union Contracts.
+## <del>Libraries\Modulegroups.xml</del>
+- <del>Added new groups for Advanced Schematics, Military Schematics, and Labor Union Contracts.</del>
 ## Libraries\Modules.xml
 - Increased amount of modules that NPC are allowed to build on a single station. This greatly reduces the number of stations required for a functional economy.
 ## Libraries\Parameters.xml
@@ -55,8 +68,8 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - Adjusts ware pricing to balance credits / m3 so traders will be rewarded for prioritizing shipping needed resources.
 - Adjusts ware production cycles to standard increments. Scales required resources to match ratio from vanilla (Station calculator will still be accurate for ratio of modules not including workforce).
 - Adjusts workforce effects to be more pronounced. This allows fewer stations for increased performance and increases the importance of food and medical supplies to a healthy economy.
-- Adds three new types of wares (Advanced Schematics, Military Schematics, and Labor Union Contracts). These are using placeholder station modules for now. The wares are secondary resources that stations can use to double production amount and are produced in modules. The modules produce a very small amount without workforce but have the highest workforce impact of any wares in the game.
-- The amount of secondary resources required at each station is balanced based on ware type and potential profit of the production cycles.
+- <del>Adds three new types of wares (Advanced Schematics, Military Schematics, and Labor Union Contracts). These are using placeholder station modules for now. The wares are secondary resources that stations can use to double production amount and are produced in modules. The modules produce a very small amount without workforce but have the highest workforce impact of any wares in the game.</del>
+- <del>The amount of secondary resources required at each station is balanced based on ware type and potential profit of the production cycles.</del>
 - Adds a separate production method of energy cells for Xenon with values balanced for lack of workforce.
 - Reduces construction time of modules so that the majority of the wait is for resources.
 - Removes hullparts from station construction resources. This reduces the chance of a hull part shortage from building ships causing an entire economy to seize. Amount of claytronics and energy cells increased to match pre-change average credit cost.

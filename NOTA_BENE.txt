@@ -1,0 +1,7 @@
+#TODO
+Remove any occurrence and related to
+- da_mil_schematics
+- da_laborunion_contracts
+- da_adv_schematics
+- <secondary>
+- <effect type="secondaryresource"

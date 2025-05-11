@@ -10,14 +10,7 @@
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='default'][@amount='108'][@time='600']/primary/ware[@ware='refinedmetals'][@amount='80']/@amount">160</replace>
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='default'][@amount='108'][@time='600']/effects/effect[@type='work'][@product='0.34']/@product">0.5</replace>
   <add sel="/wares/ware[@id='advancedcomposites']/production[@method='default'][@amount='108'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='advancedcomposites']/production[@method='default'][@amount='108'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='advancedcomposites']/production[@method='default'][@amount='108'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="31"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='54'][@time='300']/@time">600</replace>
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='54'][@time='600']/@amount">108</replace>
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='108'][@time='600']/primary/ware[@ware='energycells'][@amount='50']/@amount">100</replace>
@@ -25,14 +18,7 @@
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='108'][@time='600']/primary/ware[@ware='teladianium'][@amount='58']/@amount">116</replace>
   <replace sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='108'][@time='600']/effects/effect[@type='work'][@product='0.34']/@product">0.5</replace>
   <add sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='108'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='108'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='advancedcomposites']/production[@method='teladi'][@amount='108'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="31"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='advancedelectronics']/price[@min='710'][@average='1014'][@max='1318']/@min">855</replace>
   <replace sel="/wares/ware[@id='advancedelectronics']/price[@min='855'][@average='1014'][@max='1318']/@average">1140</replace>
   <replace sel="/wares/ware[@id='advancedelectronics']/price[@min='855'][@average='1140'][@max='1318']/@max">1620</replace>
@@ -43,14 +29,7 @@
   <replace sel="/wares/ware[@id='advancedelectronics']/production[@method='default'][@amount='68'][@time='600']/primary/ware[@ware='quantumtubes'][@amount='20']/@amount">26</replace>
   <replace sel="/wares/ware[@id='advancedelectronics']/production[@method='default'][@amount='68'][@time='600']/effects/effect[@type='work'][@product='0.36']/@product">0.5</replace>
   <add sel="/wares/ware[@id='advancedelectronics']/production[@method='default'][@amount='68'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='advancedelectronics']/production[@method='default'][@amount='68'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='advancedelectronics']/production[@method='default'][@amount='68'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="14"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='antimattercells']/price[@min='121'][@average='202'][@max='282']/@min">115</replace>
   <replace sel="/wares/ware[@id='antimattercells']/price[@min='115'][@average='202'][@max='282']/@average">153</replace>
   <replace sel="/wares/ware[@id='antimattercells']/price[@min='115'][@average='153'][@max='282']/@max">405</replace>
@@ -60,14 +39,7 @@
   <replace sel="/wares/ware[@id='antimattercells']/production[@method='default'][@amount='248'][@time='300']/primary/ware[@ware='hydrogen'][@amount='320']/@amount">800</replace>
   <replace sel="/wares/ware[@id='antimattercells']/production[@method='default'][@amount='248'][@time='300']/effects/effect[@type='work'][@product='0.35']/@product">0.5</replace>
   <add sel="/wares/ware[@id='antimattercells']/production[@method='default'][@amount='248'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='antimattercells']/production[@method='default'][@amount='248'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='antimattercells']/production[@method='default'][@amount='248'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="38"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='antimatterconverters']/price[@min='248'][@average='354'][@max='461']/@min">300</replace>
   <replace sel="/wares/ware[@id='antimatterconverters']/price[@min='300'][@average='354'][@max='461']/@average">400</replace>
   <replace sel="/wares/ware[@id='antimatterconverters']/price[@min='300'][@average='400'][@max='461']/@max">560</replace>
@@ -78,14 +50,7 @@
   <replace sel="/wares/ware[@id='antimatterconverters']/production[@method='default'][@amount='266'][@time='600']/primary/ware[@ware='microchips'][@amount='30']/@amount">60</replace>
   <replace sel="/wares/ware[@id='antimatterconverters']/production[@method='default'][@amount='266'][@time='600']/effects/effect[@type='work'][@product='0.39']/@product">0.5</replace>
   <add sel="/wares/ware[@id='antimatterconverters']/production[@method='default'][@amount='266'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='antimatterconverters']/production[@method='default'][@amount='266'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='antimatterconverters']/production[@method='default'][@amount='266'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="19"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='claytronics']/price[@min='1734'][@average='2040'][@max='2346']/@min">2122</replace>
   <replace sel="/wares/ware[@id='claytronics']/price[@min='2122'][@average='2040'][@max='2346']/@average">2496</replace>
   <replace sel="/wares/ware[@id='claytronics']/price[@min='2122'][@average='2496'][@max='2346']/@max">2904</replace>
@@ -95,14 +60,7 @@
   <replace sel="/wares/ware[@id='claytronics']/production[@method='default'][@amount='108'][@time='600']/primary/ware[@ware='quantumtubes'][@amount='100']/@amount">101</replace>
   <replace sel="/wares/ware[@id='claytronics']/production[@method='default'][@amount='108'][@time='600']/effects/effect[@type='work'][@product='0.34']/@product">0.5</replace>
   <add sel="/wares/ware[@id='claytronics']/production[@method='default'][@amount='108'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='claytronics']/production[@method='default'][@amount='108'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='claytronics']/production[@method='default'][@amount='108'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="54"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='claytronics']/production[@method='recycling'][@amount='60'][@time='300']/@amount">80</replace>
   <replace sel="/wares/ware[@id='claytronics']/production[@method='recycling'][@amount='80'][@time='300']/effects/effect[@type='work'][@product='0.34']/@product">0.5</replace>
   <add sel="/wares/ware[@id='claytronics']/production[@method='recycling'][@amount='80'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
@@ -118,40 +76,19 @@
   <replace sel="/wares/ware[@id='dronecomponents']/production[@method='default'][@amount='53'][@time='600']/primary/ware[@ware='scanningarrays'][@amount='40']/@amount">20</replace>
   <replace sel="/wares/ware[@id='dronecomponents']/production[@method='default'][@amount='53'][@time='600']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='dronecomponents']/production[@method='default'][@amount='53'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='dronecomponents']/production[@method='default'][@amount='53'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='dronecomponents']/production[@method='default'][@amount='53'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="19"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='energycells']/price[@min='10'][@average='16'][@max='22']/@min">12</replace>
   <replace sel="/wares/ware[@id='energycells']/price[@min='12'][@average='16'][@max='22']/@max">29</replace>
   <replace sel="/wares/ware[@id='energycells']/production[@method='default'][@amount='175'][@time='60']/@time">300</replace>
   <replace sel="/wares/ware[@id='energycells']/production[@method='default'][@amount='175'][@time='300']/@amount">1750</replace>
   <replace sel="/wares/ware[@id='energycells']/production[@method='default'][@amount='1750'][@time='300']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='energycells']/production[@method='default'][@amount='1750'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='energycells']/production[@method='default'][@amount='1750'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='energycells']/production[@method='default'][@amount='1750'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="28"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='energycells']/production[@method='terran'][@amount='50'][@time='60']/@time">300</replace>
   <replace sel="/wares/ware[@id='energycells']/production[@method='terran'][@amount='50'][@time='300']/@amount">750</replace>
   <replace sel="/wares/ware[@id='energycells']/production[@method='terran'][@amount='750'][@time='300']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='energycells']/production[@method='terran'][@amount='750'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='energycells']/production[@method='terran'][@amount='750'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='energycells']/production[@method='terran'][@amount='750'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="12"/>
-    </secondary>
-  </add>
+
   <add sel="/wares/ware[@id='energycells']">
     <production time="300" amount="2625" method="xenon" name="{20206,601}">
       <effects>
@@ -169,14 +106,7 @@
   <replace sel="/wares/ware[@id='engineparts']/production[@method='default'][@amount='139'][@time='600']/primary/ware[@ware='refinedmetals'][@amount='96']/@amount">64</replace>
   <replace sel="/wares/ware[@id='engineparts']/production[@method='default'][@amount='139'][@time='600']/effects/effect[@type='work'][@product='0.47']/@product">0.5</replace>
   <add sel="/wares/ware[@id='engineparts']/production[@method='default'][@amount='139'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='engineparts']/production[@method='default'][@amount='139'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='engineparts']/production[@method='default'][@amount='139'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='208'][@time='900']/@time">600</replace>
   <replace sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='208'][@time='600']/@amount">139</replace>
   <replace sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='139'][@time='600']/primary/ware[@ware='antimattercells'][@amount='80']/@amount">53</replace>
@@ -184,27 +114,13 @@
   <replace sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='139'][@time='600']/primary/ware[@ware='teladianium'][@amount='70']/@amount">47</replace>
   <replace sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='139'][@time='600']/effects/effect[@type='work'][@product='0.47']/@product">0.5</replace>
   <add sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='139'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='139'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='engineparts']/production[@method='teladi'][@amount='139'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='fieldcoils']/price[@min='247'][@average='412'][@max='576']/@min">360</replace>
   <replace sel="/wares/ware[@id='fieldcoils']/price[@min='360'][@average='412'][@max='576']/@average">480</replace>
   <replace sel="/wares/ware[@id='fieldcoils']/price[@min='360'][@average='480'][@max='576']/@max">720</replace>
   <replace sel="/wares/ware[@id='fieldcoils']/production[@method='default'][@amount='175'][@time='600']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='fieldcoils']/production[@method='default'][@amount='175'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='fieldcoils']/production[@method='default'][@amount='175'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='fieldcoils']/production[@method='default'][@amount='175'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="15"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='foodrations']/price[@min='12'][@average='21'][@max='29']/@min">14</replace>
   <replace sel="/wares/ware[@id='foodrations']/price[@min='14'][@average='21'][@max='29']/@average">18</replace>
   <replace sel="/wares/ware[@id='foodrations']/price[@min='14'][@average='18'][@max='29']/@max">34</replace>
@@ -216,14 +132,7 @@
   <replace sel="/wares/ware[@id='foodrations']/production[@method='default'][@amount='575'][@time='300']/primary/ware[@ware='wheat'][@amount='40']/@amount">50</replace>
   <replace sel="/wares/ware[@id='foodrations']/production[@method='default'][@amount='575'][@time='300']/effects/effect[@type='work'][@product='0.35']/@product">0.5</replace>
   <add sel="/wares/ware[@id='foodrations']/production[@method='default'][@amount='575'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='foodrations']/production[@method='default'][@amount='575'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='foodrations']/production[@method='default'][@amount='575'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="11"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='graphene']/price[@min='100'][@average='166'][@max='233']/@min">150</replace>
   <replace sel="/wares/ware[@id='graphene']/price[@min='150'][@average='166'][@max='233']/@average">200</replace>
   <replace sel="/wares/ware[@id='graphene']/price[@min='150'][@average='200'][@max='233']/@max">480</replace>
@@ -233,14 +142,7 @@
   <replace sel="/wares/ware[@id='graphene']/production[@method='default'][@amount='240'][@time='300']/primary/ware[@ware='methane'][@amount='320']/@amount">800</replace>
   <replace sel="/wares/ware[@id='graphene']/production[@method='default'][@amount='240'][@time='300']/effects/effect[@type='work'][@product='0.46']/@product">0.5</replace>
   <add sel="/wares/ware[@id='graphene']/production[@method='default'][@amount='240'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='graphene']/production[@method='default'][@amount='240'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='graphene']/production[@method='default'][@amount='240'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="48"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='helium']/price[@min='37'][@average='44'][@max='51']/@min">36</replace>
   <replace sel="/wares/ware[@id='helium']/price[@min='36'][@average='44'][@max='51']/@average">42</replace>
   <replace sel="/wares/ware[@id='helium']/price[@min='36'][@average='42'][@max='51']/@max">55</replace>
@@ -254,14 +156,7 @@
   <replace sel="/wares/ware[@id='hullparts']/production[@method='default'][@amount='392'][@time='600']/primary/ware[@ware='refinedmetals'][@amount='280']/@amount">374</replace>
   <replace sel="/wares/ware[@id='hullparts']/production[@method='default'][@amount='392'][@time='600']/effects/effect[@type='work'][@product='0.37']/@product">0.5</replace>
   <add sel="/wares/ware[@id='hullparts']/production[@method='default'][@amount='392'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='hullparts']/production[@method='default'][@amount='392'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='hullparts']/production[@method='default'][@amount='392'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="39"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='hullparts']/production[@method='recycling'][@amount='200'][@time='300']/effects/effect[@type='work'][@product='0.37']/@product">0.5</replace>
   <add sel="/wares/ware[@id='hullparts']/production[@method='recycling'][@amount='200'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
   <replace sel="/wares/ware[@id='hullparts']/production[@method='teladi'][@amount='294'][@time='900']/@time">600</replace>
@@ -271,14 +166,7 @@
   <replace sel="/wares/ware[@id='hullparts']/production[@method='teladi'][@amount='392'][@time='600']/primary/ware[@ware='teladianium'][@amount='204']/@amount">272</replace>
   <replace sel="/wares/ware[@id='hullparts']/production[@method='teladi'][@amount='392'][@time='600']/effects/effect[@type='work'][@product='0.37']/@product">0.5</replace>
   <add sel="/wares/ware[@id='hullparts']/production[@method='teladi'][@amount='392'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='hullparts']/production[@method='teladi'][@amount='392'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='hullparts']/production[@method='teladi'][@amount='392'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="39"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='hydrogen']/price[@min='49'][@average='58'][@max='67']/@min">31</replace>
   <replace sel="/wares/ware[@id='hydrogen']/price[@min='31'][@average='58'][@max='67']/@average">36</replace>
   <replace sel="/wares/ware[@id='hydrogen']/price[@min='31'][@average='36'][@max='67']/@max">47</replace>
@@ -291,14 +179,7 @@
   <replace sel="/wares/ware[@id='majadust']/price[@min='210'][@average='280'][@max='323']/@max">380</replace>
   <replace sel="/wares/ware[@id='majadust']/production[@method='default'][@amount='64'][@time='600']/effects/effect[@type='work'][@product='0.75']/@product">0.5</replace>
   <add sel="/wares/ware[@id='majadust']/production[@method='default'][@amount='64'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='majadust']/production[@method='default'][@amount='64'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='majadust']/production[@method='default'][@amount='64'][@time='600']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="18"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='majasnails']/@volume">2</replace>
   <replace sel="/wares/ware[@id='majasnails']/price[@min='35'][@average='58'][@max='81']/@min">63</replace>
   <replace sel="/wares/ware[@id='majasnails']/price[@min='63'][@average='58'][@max='81']/@average">84</replace>
@@ -309,14 +190,7 @@
   <replace sel="/wares/ware[@id='majasnails']/production[@method='default'][@amount='97'][@time='300']/primary/ware[@ware='water'][@amount='100']/@amount">67</replace>
   <replace sel="/wares/ware[@id='majasnails']/production[@method='default'][@amount='97'][@time='300']/effects/effect[@type='work'][@product='0.59']/@product">0.5</replace>
   <add sel="/wares/ware[@id='majasnails']/production[@method='default'][@amount='97'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='majasnails']/production[@method='default'][@amount='97'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='majasnails']/production[@method='default'][@amount='97'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="8"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='meat']/@volume">2</replace>
   <replace sel="/wares/ware[@id='meat']/price[@min='29'][@average='48'][@max='68']/@min">35</replace>
   <replace sel="/wares/ware[@id='meat']/price[@min='35'][@average='48'][@max='68']/@average">46</replace>
@@ -327,77 +201,28 @@
   <replace sel="/wares/ware[@id='meat']/production[@method='default'][@amount='193'][@time='300']/primary/ware[@ware='water'][@amount='100']/@amount">67</replace>
   <replace sel="/wares/ware[@id='meat']/production[@method='default'][@amount='193'][@time='300']/effects/effect[@type='work'][@product='0.33']/@product">0.5</replace>
   <add sel="/wares/ware[@id='meat']/production[@method='default'][@amount='193'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='meat']/production[@method='default'][@amount='193'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='meat']/production[@method='default'][@amount='193'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="9"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='medicalsupplies']/price[@min='43'][@average='66'][@max='89']/@min">51</replace>
   <replace sel="/wares/ware[@id='medicalsupplies']/price[@min='51'][@average='66'][@max='89']/@average">68</replace>
   <replace sel="/wares/ware[@id='medicalsupplies']/price[@min='51'][@average='68'][@max='89']/@max">100</replace>
   <replace sel="/wares/ware[@id='medicalsupplies']/production[@method='default'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='medicalsupplies']/production[@method='default'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='default'][@amount='208'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='default'][@amount='208'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="14"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='medicalsupplies']/production[@method='paranid'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='medicalsupplies']/production[@method='paranid'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='paranid'][@amount='208'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='paranid'][@amount='208'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="14"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='medicalsupplies']/production[@method='teladi'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='medicalsupplies']/production[@method='teladi'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='teladi'][@amount='208'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='teladi'][@amount='208'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="14"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='medicalsupplies']/production[@method='split'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='medicalsupplies']/production[@method='split'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='split'][@amount='208'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='split'][@amount='208'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="14"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='medicalsupplies']/production[@method='terran'][@amount='140'][@time='300']/effects/effect[@type='work'][@product='0.59']/@product">0.5</replace>
   <add sel="/wares/ware[@id='medicalsupplies']/production[@method='terran'][@amount='140'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='terran'][@amount='140'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='terran'][@amount='140'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="9"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='medicalsupplies']/production[@method='boron'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='medicalsupplies']/production[@method='boron'][@amount='208'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='boron'][@amount='208'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='medicalsupplies']/production[@method='boron'][@amount='208'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="9"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='methane']/price[@min='41'][@average='48'][@max='55']/@max">62</replace>
   <replace sel="/wares/ware[@id='microchips']/price[@min='805'][@average='948'][@max='1090']/@min">693</replace>
   <replace sel="/wares/ware[@id='microchips']/price[@min='693'][@average='948'][@max='1090']/@average">924</replace>
@@ -407,14 +232,7 @@
   <replace sel="/wares/ware[@id='microchips']/production[@method='default'][@amount='216'][@time='600']/primary/ware[@ware='siliconwafers'][@amount='200']/@amount">600</replace>
   <replace sel="/wares/ware[@id='microchips']/production[@method='default'][@amount='216'][@time='600']/effects/effect[@type='work'][@product='0.36']/@product">0.5</replace>
   <add sel="/wares/ware[@id='microchips']/production[@method='default'][@amount='216'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='microchips']/production[@method='default'][@amount='216'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='microchips']/production[@method='default'][@amount='216'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="35"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='missilecomponents']/price[@min='6'][@average='9'][@max='13']/@min">17</replace>
   <replace sel="/wares/ware[@id='missilecomponents']/price[@min='17'][@average='9'][@max='13']/@average">22</replace>
   <replace sel="/wares/ware[@id='missilecomponents']/price[@min='17'][@average='22'][@max='13']/@max">54</replace>
@@ -423,14 +241,7 @@
   <replace sel="/wares/ware[@id='missilecomponents']/production[@method='default'][@amount='374'][@time='600']/primary/ware[@ware='energycells'][@amount='20']/@amount">26</replace>
   <replace sel="/wares/ware[@id='missilecomponents']/production[@method='default'][@amount='374'][@time='600']/effects/effect[@type='work'][@product='0.53']/@product">0.5</replace>
   <add sel="/wares/ware[@id='missilecomponents']/production[@method='default'][@amount='374'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='missilecomponents']/production[@method='default'][@amount='374'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='missilecomponents']/production[@method='default'][@amount='374'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="3"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='module_arg_conn_base_01']/production[@method='default'][@amount='1'][@time='59']/@time">30</replace>
   <replace sel="/wares/ware[@id='module_arg_conn_base_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='14']/@amount">1</replace>
   <replace sel="/wares/ware[@id='module_arg_conn_base_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='27']/@amount">5</replace>
@@ -1007,14 +818,7 @@
   <replace sel="/wares/ware[@id='nostropoil']/price[@min='27'][@average='36'][@max='47']/@max">52</replace>
   <replace sel="/wares/ware[@id='nostropoil']/production[@method='default'][@amount='500'][@time='300']/effects/effect[@type='work'][@product='0.2']/@product">0.5</replace>
   <add sel="/wares/ware[@id='nostropoil']/production[@method='default'][@amount='500'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='nostropoil']/production[@method='default'][@amount='500'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='nostropoil']/production[@method='default'][@amount='500'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="18"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='ore']/price[@min='43'][@average='50'][@max='58']/@max">65</replace>
   <replace sel="/wares/ware[@id='plasmaconductors']/price[@min='769'][@average='1026'][@max='1282']/@min">936</replace>
   <replace sel="/wares/ware[@id='plasmaconductors']/price[@min='936'][@average='1026'][@max='1282']/@average">1248</replace>
@@ -1026,14 +830,7 @@
   <replace sel="/wares/ware[@id='plasmaconductors']/production[@method='default'][@amount='29'][@time='600']/primary/ware[@ware='superfluidcoolant'][@amount='140']/@amount">93</replace>
   <replace sel="/wares/ware[@id='plasmaconductors']/production[@method='default'][@amount='29'][@time='600']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='plasmaconductors']/production[@method='default'][@amount='29'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='plasmaconductors']/production[@method='default'][@amount='29'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='plasmaconductors']/production[@method='default'][@amount='29'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="6"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='quantumtubes']/price[@min='225'][@average='300'][@max='375']/@min">281</replace>
   <replace sel="/wares/ware[@id='quantumtubes']/price[@min='281'][@average='300'][@max='375']/@average">374</replace>
   <replace sel="/wares/ware[@id='quantumtubes']/price[@min='281'][@average='374'][@max='375']/@max">704</replace>
@@ -1044,14 +841,7 @@
   <replace sel="/wares/ware[@id='quantumtubes']/production[@method='default'][@amount='156'][@time='600']/primary/ware[@ware='superfluidcoolant'][@amount='30']/@amount">50</replace>
   <replace sel="/wares/ware[@id='quantumtubes']/production[@method='default'][@amount='156'][@time='600']/effects/effect[@type='work'][@product='0.53']/@product">0.5</replace>
   <add sel="/wares/ware[@id='quantumtubes']/production[@method='default'][@amount='156'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='quantumtubes']/production[@method='default'][@amount='156'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='quantumtubes']/production[@method='default'][@amount='156'][@time='600']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='refinedmetals']/price[@min='89'][@average='148'][@max='207']/@min">131</replace>
   <replace sel="/wares/ware[@id='refinedmetals']/price[@min='131'][@average='148'][@max='207']/@average">175</replace>
   <replace sel="/wares/ware[@id='refinedmetals']/price[@min='131'][@average='175'][@max='207']/@max">371</replace>
@@ -1061,37 +851,16 @@
   <replace sel="/wares/ware[@id='refinedmetals']/production[@method='default'][@amount='352'][@time='300']/primary/ware[@ware='ore'][@amount='240']/@amount">960</replace>
   <replace sel="/wares/ware[@id='refinedmetals']/production[@method='default'][@amount='352'][@time='300']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='refinedmetals']/production[@method='default'][@amount='352'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='refinedmetals']/production[@method='default'][@amount='352'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='refinedmetals']/production[@method='default'][@amount='352'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="61"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='scanningarrays']/price[@min='842'][@average='1053'][@max='1264']/@min">884</replace>
   <replace sel="/wares/ware[@id='scanningarrays']/price[@min='884'][@average='1053'][@max='1264']/@average">1178</replace>
   <replace sel="/wares/ware[@id='scanningarrays']/price[@min='884'][@average='1178'][@max='1264']/@max">1748</replace>
   <replace sel="/wares/ware[@id='scanningarrays']/production[@method='default'][@amount='36'][@time='600']/effects/effect[@type='work'][@product='0.38']/@product">0.5</replace>
   <add sel="/wares/ware[@id='scanningarrays']/production[@method='default'][@amount='36'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='scanningarrays']/production[@method='default'][@amount='36'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='scanningarrays']/production[@method='default'][@amount='36'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="18"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='scanningarrays']/production[@method='teladi'][@amount='36'][@time='600']/effects/effect[@type='work'][@product='0.38']/@product">0.5</replace>
   <add sel="/wares/ware[@id='scanningarrays']/production[@method='teladi'][@amount='36'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='scanningarrays']/production[@method='teladi'][@amount='36'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='scanningarrays']/production[@method='teladi'][@amount='36'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="18"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='scrapmetal']/production[@method='processing'][@amount='1'][@time='60']/@time">20</replace>
   <replace sel="/wares/ware[@id='shieldcomponents']/price[@min='113'][@average='188'][@max='264']/@min">165</replace>
   <replace sel="/wares/ware[@id='shieldcomponents']/price[@min='165'][@average='188'][@max='264']/@average">220</replace>
@@ -1103,14 +872,7 @@
   <replace sel="/wares/ware[@id='shieldcomponents']/production[@method='default'][@amount='97'][@time='600']/primary/ware[@ware='quantumtubes'][@amount='20']/@amount">10</replace>
   <replace sel="/wares/ware[@id='shieldcomponents']/production[@method='default'][@amount='97'][@time='600']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='shieldcomponents']/production[@method='default'][@amount='97'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='shieldcomponents']/production[@method='default'][@amount='97'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='shieldcomponents']/production[@method='default'][@amount='97'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="9"/>
-    </secondary>
-  </add>
+
   <add sel="/wares/ware[@id='ship_par_s_heavyfighter_01_a']">
     <owner faction="paranid"/>
   </add>
@@ -1126,14 +888,7 @@
   <replace sel="/wares/ware[@id='siliconwafers']/production[@method='default'][@amount='356'][@time='300']/primary/ware[@ware='silicon'][@amount='240']/@amount">800</replace>
   <replace sel="/wares/ware[@id='siliconwafers']/production[@method='default'][@amount='356'][@time='300']/effects/effect[@type='work'][@product='0.37']/@product">0.5</replace>
   <add sel="/wares/ware[@id='siliconwafers']/production[@method='default'][@amount='356'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='siliconwafers']/production[@method='default'][@amount='356'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='siliconwafers']/production[@method='default'][@amount='356'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="97"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='smartchips']/price[@min='46'][@average='57'][@max='69']/@min">39</replace>
   <replace sel="/wares/ware[@id='smartchips']/price[@min='39'][@average='57'][@max='69']/@average">52</replace>
   <replace sel="/wares/ware[@id='smartchips']/price[@min='39'][@average='52'][@max='69']/@max">82</replace>
@@ -1142,41 +897,20 @@
   <replace sel="/wares/ware[@id='smartchips']/production[@method='default'][@amount='286'][@time='600']/primary/ware[@ware='siliconwafers'][@amount='20']/@amount">40</replace>
   <replace sel="/wares/ware[@id='smartchips']/production[@method='default'][@amount='286'][@time='600']/effects/effect[@type='work'][@product='0.37']/@product">0.5</replace>
   <add sel="/wares/ware[@id='smartchips']/production[@method='default'][@amount='286'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='smartchips']/production[@method='default'][@amount='286'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='smartchips']/production[@method='default'][@amount='286'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="6"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='sojabeans']/@volume">2</replace>
   <replace sel="/wares/ware[@id='sojabeans']/price[@min='40'][@average='67'][@max='93']/@min">71</replace>
   <replace sel="/wares/ware[@id='sojabeans']/price[@min='71'][@average='67'][@max='93']/@average">95</replace>
   <replace sel="/wares/ware[@id='sojabeans']/price[@min='71'][@average='95'][@max='93']/@max">125</replace>
   <replace sel="/wares/ware[@id='sojabeans']/production[@method='default'][@amount='104'][@time='300']/effects/effect[@type='work'][@product='0.48']/@product">0.5</replace>
   <add sel="/wares/ware[@id='sojabeans']/production[@method='default'][@amount='104'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='sojabeans']/production[@method='default'][@amount='104'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='sojabeans']/production[@method='default'][@amount='104'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='sojahusk']/price[@min='19'][@average='32'][@max='45']/@min">31</replace>
   <replace sel="/wares/ware[@id='sojahusk']/price[@min='31'][@average='32'][@max='45']/@average">41</replace>
   <replace sel="/wares/ware[@id='sojahusk']/price[@min='31'][@average='41'][@max='45']/@max">57</replace>
   <replace sel="/wares/ware[@id='sojahusk']/production[@method='default'][@amount='350'][@time='300']/effects/effect[@type='work'][@product='0.37']/@product">0.5</replace>
   <add sel="/wares/ware[@id='sojahusk']/production[@method='default'][@amount='350'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='sojahusk']/production[@method='default'][@amount='350'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='sojahusk']/production[@method='default'][@amount='350'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="14"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='spacefuel']/@volume">1</replace>
   <replace sel="/wares/ware[@id='spacefuel']/price[@min='60'][@average='133'][@max='207']/@min">146</replace>
   <replace sel="/wares/ware[@id='spacefuel']/price[@min='146'][@average='133'][@max='207']/@average">195</replace>
@@ -1188,28 +922,14 @@
   <replace sel="/wares/ware[@id='spacefuel']/production[@method='default'][@amount='123'][@time='600']/primary/ware[@ware='wheat'][@amount='80']/@amount">100</replace>
   <replace sel="/wares/ware[@id='spacefuel']/production[@method='default'][@amount='123'][@time='600']/effects/effect[@type='work'][@product='0.69']/@product">0.5</replace>
   <add sel="/wares/ware[@id='spacefuel']/production[@method='default'][@amount='123'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='spacefuel']/production[@method='default'][@amount='123'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='spacefuel']/production[@method='default'][@amount='123'][@time='600']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="24"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='spaceweed']/@volume">1</replace>
   <replace sel="/wares/ware[@id='spaceweed']/price[@min='75'][@average='166'][@max='257']/@min">92</replace>
   <replace sel="/wares/ware[@id='spaceweed']/price[@min='92'][@average='166'][@max='257']/@average">122</replace>
   <replace sel="/wares/ware[@id='spaceweed']/price[@min='92'][@average='122'][@max='257']/@max">222</replace>
   <replace sel="/wares/ware[@id='spaceweed']/production[@method='default'][@amount='183'][@time='600']/effects/effect[@type='work'][@product='0.7']/@product">0.5</replace>
   <add sel="/wares/ware[@id='spaceweed']/production[@method='default'][@amount='183'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='spaceweed']/production[@method='default'][@amount='183'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='spaceweed']/production[@method='default'][@amount='183'][@time='600']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="22"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='spices']/@volume">2</replace>
   <replace sel="/wares/ware[@id='spices']/price[@min='12'][@average='20'][@max='28']/@min">15</replace>
   <replace sel="/wares/ware[@id='spices']/price[@min='15'][@average='20'][@max='28']/@max">50</replace>
@@ -1219,28 +939,14 @@
   <replace sel="/wares/ware[@id='spices']/production[@method='default'][@amount='250'][@time='300']/primary/ware[@ware='water'][@amount='80']/@amount">40</replace>
   <replace sel="/wares/ware[@id='spices']/production[@method='default'][@amount='250'][@time='300']/effects/effect[@type='work'][@product='0.4']/@product">0.5</replace>
   <add sel="/wares/ware[@id='spices']/production[@method='default'][@amount='250'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='spices']/production[@method='default'][@amount='250'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='spices']/production[@method='default'][@amount='250'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="5"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='sunriseflowers']/@volume">2</replace>
   <replace sel="/wares/ware[@id='sunriseflowers']/price[@min='48'][@average='80'][@max='112']/@min">74</replace>
   <replace sel="/wares/ware[@id='sunriseflowers']/price[@min='74'][@average='80'][@max='112']/@average">98</replace>
   <replace sel="/wares/ware[@id='sunriseflowers']/price[@min='74'][@average='98'][@max='112']/@max">128</replace>
   <replace sel="/wares/ware[@id='sunriseflowers']/production[@method='default'][@amount='100'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='sunriseflowers']/production[@method='default'][@amount='100'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='sunriseflowers']/production[@method='default'][@amount='100'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='sunriseflowers']/production[@method='default'][@amount='100'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='superfluidcoolant']/price[@min='90'][@average='150'][@max='211']/@min">132</replace>
   <replace sel="/wares/ware[@id='superfluidcoolant']/price[@min='132'][@average='150'][@max='211']/@average">176</replace>
   <replace sel="/wares/ware[@id='superfluidcoolant']/price[@min='132'][@average='176'][@max='211']/@max">400</replace>
@@ -1250,14 +956,7 @@
   <replace sel="/wares/ware[@id='superfluidcoolant']/production[@method='default'][@amount='119'][@time='300']/primary/ware[@ware='helium'][@amount='320']/@amount">400</replace>
   <replace sel="/wares/ware[@id='superfluidcoolant']/production[@method='default'][@amount='119'][@time='300']/effects/effect[@type='work'][@product='0.49']/@product">0.5</replace>
   <add sel="/wares/ware[@id='superfluidcoolant']/production[@method='default'][@amount='119'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='superfluidcoolant']/production[@method='default'][@amount='119'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='superfluidcoolant']/production[@method='default'][@amount='119'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="21"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='swampplant']/@volume">2</replace>
   <replace sel="/wares/ware[@id='swampplant']/price[@min='50'][@average='84'][@max='117']/@min">77</replace>
   <replace sel="/wares/ware[@id='swampplant']/price[@min='77'][@average='84'][@max='117']/@average">102</replace>
@@ -1268,14 +967,7 @@
   <replace sel="/wares/ware[@id='swampplant']/production[@method='default'][@amount='80'][@time='300']/primary/ware[@ware='water'][@amount='100']/@amount">67</replace>
   <replace sel="/wares/ware[@id='swampplant']/production[@method='default'][@amount='80'][@time='300']/effects/effect[@type='work'][@product='0.59']/@product">0.5</replace>
   <add sel="/wares/ware[@id='swampplant']/production[@method='default'][@amount='80'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='swampplant']/production[@method='default'][@amount='80'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='swampplant']/production[@method='default'][@amount='80'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="8"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='teladianium']/price[@min='121'][@average='202'][@max='283']/@min">180</replace>
   <replace sel="/wares/ware[@id='teladianium']/price[@min='180'][@average='202'][@max='283']/@average">240</replace>
   <replace sel="/wares/ware[@id='teladianium']/price[@min='180'][@average='240'][@max='283']/@max">464</replace>
@@ -1285,14 +977,7 @@
   <replace sel="/wares/ware[@id='teladianium']/production[@method='default'][@amount='350'][@time='300']/primary/ware[@ware='ore'][@amount='280']/@amount">1400</replace>
   <replace sel="/wares/ware[@id='teladianium']/production[@method='default'][@amount='350'][@time='300']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='teladianium']/production[@method='default'][@amount='350'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='teladianium']/production[@method='default'][@amount='350'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='teladianium']/production[@method='default'][@amount='350'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="83"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='turretcomponents']/price[@min='164'][@average='273'][@max='383']/@min">210</replace>
   <replace sel="/wares/ware[@id='turretcomponents']/price[@min='210'][@average='273'][@max='383']/@average">280</replace>
   <replace sel="/wares/ware[@id='turretcomponents']/price[@min='210'][@average='280'][@max='383']/@max">600</replace>
@@ -1304,14 +989,7 @@
   <replace sel="/wares/ware[@id='turretcomponents']/production[@method='default'][@amount='114'][@time='600']/primary/ware[@ware='scanningarrays'][@amount='10']/@amount">6</replace>
   <replace sel="/wares/ware[@id='turretcomponents']/production[@method='default'][@amount='114'][@time='600']/effects/effect[@type='work'][@product='0.53']/@product">0.5</replace>
   <add sel="/wares/ware[@id='turretcomponents']/production[@method='default'][@amount='114'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='turretcomponents']/production[@method='default'][@amount='114'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='turretcomponents']/production[@method='default'][@amount='114'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="13"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='water']/price[@min='32'][@average='53'][@max='74']/@min">72</replace>
   <replace sel="/wares/ware[@id='water']/price[@min='72'][@average='53'][@max='74']/@average">96</replace>
   <replace sel="/wares/ware[@id='water']/price[@min='72'][@average='96'][@max='74']/@max">180</replace>
@@ -1321,14 +999,7 @@
   <replace sel="/wares/ware[@id='water']/production[@method='default'][@amount='483'][@time='300']/primary/ware[@ware='ice'][@amount='320']/@amount">800</replace>
   <replace sel="/wares/ware[@id='water']/production[@method='default'][@amount='483'][@time='300']/effects/effect[@type='work'][@product='0.43']/@product">0.5</replace>
   <add sel="/wares/ware[@id='water']/production[@method='default'][@amount='483'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='water']/production[@method='default'][@amount='483'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='water']/production[@method='default'][@amount='483'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="46"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='weaponcomponents']/price[@min='171'][@average='285'][@max='399']/@min">240</replace>
   <replace sel="/wares/ware[@id='weaponcomponents']/price[@min='240'][@average='285'][@max='399']/@average">320</replace>
   <replace sel="/wares/ware[@id='weaponcomponents']/price[@min='240'][@average='320'][@max='399']/@max">640</replace>
@@ -1339,28 +1010,14 @@
   <replace sel="/wares/ware[@id='weaponcomponents']/production[@method='default'][@amount='114'][@time='600']/primary/ware[@ware='plasmaconductors'][@amount='30']/@amount">20</replace>
   <replace sel="/wares/ware[@id='weaponcomponents']/production[@method='default'][@amount='114'][@time='600']/effects/effect[@type='work'][@product='0.53']/@product">0.5</replace>
   <add sel="/wares/ware[@id='weaponcomponents']/production[@method='default'][@amount='114'][@time='600']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='weaponcomponents']/production[@method='default'][@amount='114'][@time='600']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='weaponcomponents']/production[@method='default'][@amount='114'][@time='600']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="15"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='wheat']/@volume">2</replace>
   <replace sel="/wares/ware[@id='wheat']/price[@min='19'][@average='31'][@max='44']/@min">26</replace>
   <replace sel="/wares/ware[@id='wheat']/price[@min='26'][@average='31'][@max='44']/@average">34</replace>
   <replace sel="/wares/ware[@id='wheat']/price[@min='26'][@average='34'][@max='44']/@max">64</replace>
   <replace sel="/wares/ware[@id='wheat']/production[@method='default'][@amount='310'][@time='300']/effects/effect[@type='work'][@product='0.28']/@product">0.5</replace>
   <add sel="/wares/ware[@id='wheat']/production[@method='default'][@amount='310'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='wheat']/production[@method='default'][@amount='310'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='wheat']/production[@method='default'][@amount='310'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="11"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='cheltmeat']/@volume">2</replace>
   <replace sel="/wares/ware[@id='cheltmeat']/price[@min='31'][@average='51'][@max='72']/@min">53</replace>
   <replace sel="/wares/ware[@id='cheltmeat']/price[@min='53'][@average='51'][@max='72']/@average">70</replace>
@@ -1371,14 +1028,7 @@
   <replace sel="/wares/ware[@id='cheltmeat']/production[@method='default'][@amount='139'][@time='300']/primary/ware[@ware='water'][@amount='120']/@amount">80</replace>
   <replace sel="/wares/ware[@id='cheltmeat']/production[@method='default'][@amount='139'][@time='300']/effects/effect[@type='work'][@product='0.6']/@product">0.5</replace>
   <add sel="/wares/ware[@id='cheltmeat']/production[@method='default'][@amount='139'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='cheltmeat']/production[@method='default'][@amount='139'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='cheltmeat']/production[@method='default'][@amount='139'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='engine_spl_m_combat_01_mk4']/production[@method='default'][@amount='1'][@time='15']/primary/ware[@ware='antimatterconverters'][@amount='335']/@amount">174</replace>
   <replace sel="/wares/ware[@id='engine_spl_m_combat_01_mk4']/production[@method='default'][@amount='1'][@time='15']/primary/ware[@ware='engineparts'][@amount='1039']/@amount">338</replace>
   <replace sel="/wares/ware[@id='engine_spl_s_combat_01_mk4']/production[@method='default'][@amount='1'][@time='10']/primary/ware[@ware='antimatterconverters'][@amount='95']/@amount">74</replace>
@@ -1479,14 +1129,7 @@
   <replace sel="/wares/ware[@id='scruffinfruits']/price[@min='29'][@average='38'][@max='40']/@max">68</replace>
   <replace sel="/wares/ware[@id='scruffinfruits']/production[@method='default'][@amount='255'][@time='300']/effects/effect[@type='work'][@product='0.53']/@product">0.5</replace>
   <add sel="/wares/ware[@id='scruffinfruits']/production[@method='default'][@amount='255'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='scruffinfruits']/production[@method='default'][@amount='255'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='scruffinfruits']/production[@method='default'][@amount='255'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="10"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='computronicsubstrate']/price[@min='7452'][@average='8280'][@max='9108']/@min">7800</replace>
   <replace sel="/wares/ware[@id='computronicsubstrate']/price[@min='7800'][@average='8280'][@max='9108']/@average">8300</replace>
   <replace sel="/wares/ware[@id='computronicsubstrate']/price[@min='7800'][@average='8300'][@max='9108']/@max">9000</replace>
@@ -1498,14 +1141,7 @@
   <replace sel="/wares/ware[@id='computronicsubstrate']/production[@method='default'][@amount='49'][@time='300']/primary/ware[@ware='silicon'][@amount='3000']/@amount">1500</replace>
   <replace sel="/wares/ware[@id='computronicsubstrate']/production[@method='default'][@amount='49'][@time='300']/effects/effect[@type='work'][@product='0.1']/@product">0.5</replace>
   <add sel="/wares/ware[@id='computronicsubstrate']/production[@method='default'][@amount='49'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='computronicsubstrate']/production[@method='default'][@amount='49'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='computronicsubstrate']/production[@method='default'][@amount='49'][@time='300']">
-    <secondary>
-      <ware ware="da_adv_schematics" amount="90"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='computronicsubstrate']/production[@method='recycling'][@amount='50'][@time='300']/effects/effect[@type='work'][@product='0.1']/@product">0.5</replace>
   <add sel="/wares/ware[@id='computronicsubstrate']/production[@method='recycling'][@amount='50'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
   <replace sel="/wares/ware[@id='metallicmicrolattice']/price[@min='42'][@average='50'][@max='57']/@min">52</replace>
@@ -1518,14 +1154,7 @@
   <replace sel="/wares/ware[@id='metallicmicrolattice']/production[@method='default'][@amount='317'][@time='300']/primary/ware[@ware='ore'][@amount='50']/@amount">83</replace>
   <replace sel="/wares/ware[@id='metallicmicrolattice']/production[@method='default'][@amount='317'][@time='300']/effects/effect[@type='work'][@product='0.2']/@product">0.5</replace>
   <add sel="/wares/ware[@id='metallicmicrolattice']/production[@method='default'][@amount='317'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='metallicmicrolattice']/production[@method='default'][@amount='317'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='metallicmicrolattice']/production[@method='default'][@amount='317'][@time='300']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="9"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='module_ter_build_dockarea_m_01']/production[@method='default'][@amount='1'][@time='1298']/@time">649</replace>
   <replace sel="/wares/ware[@id='module_ter_build_l_01']/production[@method='default'][@amount='1'][@time='731']/@time">365</replace>
   <replace sel="/wares/ware[@id='module_ter_build_xl_01']/production[@method='default'][@amount='1'][@time='954']/@time">474</replace>
@@ -1599,27 +1228,13 @@
   <replace sel="/wares/ware[@id='proteinpaste']/price[@min='69'][@average='92'][@max='134']/@max">148</replace>
   <replace sel="/wares/ware[@id='proteinpaste']/production[@method='default'][@amount='219'][@time='300']/effects/effect[@type='work'][@product='0.3']/@product">0.5</replace>
   <add sel="/wares/ware[@id='proteinpaste']/production[@method='default'][@amount='219'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='proteinpaste']/production[@method='default'][@amount='219'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='proteinpaste']/production[@method='default'][@amount='219'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="20"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='siliconcarbide']/price[@min='1202'][@average='1414'][@max='1627']/@min">1254</replace>
   <replace sel="/wares/ware[@id='siliconcarbide']/price[@min='1254'][@average='1414'][@max='1627']/@average">1520</replace>
   <replace sel="/wares/ware[@id='siliconcarbide']/price[@min='1254'][@average='1520'][@max='1627']/@max">1820</replace>
   <replace sel="/wares/ware[@id='siliconcarbide']/production[@method='default'][@amount='48'][@time='300']/effects/effect[@type='work'][@product='0.2']/@product">0.5</replace>
   <add sel="/wares/ware[@id='siliconcarbide']/production[@method='default'][@amount='48'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='siliconcarbide']/production[@method='default'][@amount='48'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='siliconcarbide']/production[@method='default'][@amount='48'][@time='300']">
-    <secondary>
-      <ware ware="da_mil_schematics" amount="33"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='siliconcarbide']/production[@method='recycling'][@amount='60'][@time='300']/effects/effect[@type='work'][@product='0.2']/@product">0.5</replace>
   <add sel="/wares/ware[@id='siliconcarbide']/production[@method='recycling'][@amount='60'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
   <replace sel="/wares/ware[@id='stimulants']/@volume">1</replace>
@@ -1628,14 +1243,7 @@
   <replace sel="/wares/ware[@id='stimulants']/price[@min='236'][@average='315'][@max='527']/@max">415</replace>
   <replace sel="/wares/ware[@id='stimulants']/production[@method='default'][@amount='98'][@time='300']/effects/effect[@type='work'][@product='0.65']/@product">0.5</replace>
   <add sel="/wares/ware[@id='stimulants']/production[@method='default'][@amount='98'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='stimulants']/production[@method='default'][@amount='98'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='stimulants']/production[@method='default'][@amount='98'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="31"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='terranmre']/@volume">1</replace>
   <replace sel="/wares/ware[@id='terranmre']/price[@min='32'][@average='54'][@max='75']/@min">38</replace>
   <replace sel="/wares/ware[@id='terranmre']/price[@min='38'][@average='54'][@max='75']/@average">51</replace>
@@ -1646,14 +1254,7 @@
   <replace sel="/wares/ware[@id='terranmre']/production[@method='default'][@amount='219'][@time='300']/primary/ware[@ware='proteinpaste'][@amount='60']/@amount">75</replace>
   <replace sel="/wares/ware[@id='terranmre']/production[@method='default'][@amount='219'][@time='300']/effects/effect[@type='work'][@product='0.42']/@product">0.5</replace>
   <add sel="/wares/ware[@id='terranmre']/production[@method='default'][@amount='219'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='terranmre']/production[@method='default'][@amount='219'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='terranmre']/production[@method='default'][@amount='219'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="11"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='module_gen_welfare_casino_01']/production[@method='default'][@amount='1'][@time='1155']/@time">120</replace>
   <replace sel="/wares/ware[@id='module_gen_welfare_casino_01']/production[@method='default'][@amount='1'][@time='120']/primary/ware[@ware='claytronics'][@amount='594']/@amount">816</replace>
   <remove sel="/wares/ware[@id='module_gen_welfare_casino_01']/production[@method='default'][@amount='1'][@time='120']/primary/ware[@ware='hullparts'][@amount='2445']"/>
@@ -1682,14 +1283,7 @@
   <replace sel="/wares/ware[@id='bofu']/production[@method='default'][@amount='103'][@time='300']/primary/ware[@ware='plankton'][@amount='120']/@amount">150</replace>
   <replace sel="/wares/ware[@id='bofu']/production[@method='default'][@amount='103'][@time='300']/effects/effect[@type='work'][@product='0.38']/@product">0.5</replace>
   <add sel="/wares/ware[@id='bofu']/production[@method='default'][@amount='103'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='bofu']/production[@method='default'][@amount='103'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='bofu']/production[@method='default'][@amount='103'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="12"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='bogas']/price[@min='44'][@average='73'][@max='102']/@min">84</replace>
   <replace sel="/wares/ware[@id='bogas']/price[@min='84'][@average='73'][@max='102']/@average">112</replace>
   <replace sel="/wares/ware[@id='bogas']/price[@min='84'][@average='112'][@max='102']/@max">172</replace>
@@ -1699,14 +1293,7 @@
   <replace sel="/wares/ware[@id='bogas']/production[@method='default'][@amount='220'][@time='300']/primary/ware[@ware='water'][@amount='100']/@amount">200</replace>
   <replace sel="/wares/ware[@id='bogas']/production[@method='default'][@amount='220'][@time='300']/effects/effect[@type='work'][@product='0.46']/@product">0.5</replace>
   <add sel="/wares/ware[@id='bogas']/production[@method='default'][@amount='220'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='bogas']/production[@method='default'][@amount='220'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='bogas']/production[@method='default'][@amount='220'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="24"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='module_bor_build_dockarea_m_01']/production[@method='default'][@amount='1'][@time='688']/@time">649</replace>
   <replace sel="/wares/ware[@id='module_bor_build_dockarea_m_01']/production[@method='default'][@amount='1'][@time='649']/primary/ware[@ware='claytronics'][@amount='818']/@amount">1061</replace>
   <remove sel="/wares/ware[@id='module_bor_build_dockarea_m_01']/production[@method='default'][@amount='1'][@time='649']/primary/ware[@ware='hullparts'][@amount='2663']"/>
@@ -1863,14 +1450,7 @@
   <replace sel="/wares/ware[@id='plankton']/production[@method='default'][@amount='206'][@time='300']/primary/ware[@ware='water'][@amount='50']/@amount">38</replace>
   <replace sel="/wares/ware[@id='plankton']/production[@method='default'][@amount='206'][@time='300']/effects/effect[@type='work'][@product='0.4']/@product">0.5</replace>
   <add sel="/wares/ware[@id='plankton']/production[@method='default'][@amount='206'][@time='300']/effects/effect[@type='work'][@product='0.5']" type="@cycle">0.5</add>
-  <add sel="/wares/ware[@id='plankton']/production[@method='default'][@amount='206'][@time='300']/effects">
-    <effect type="secondaryresource" product="0.1" cycle="0.25"/>
-  </add>
-  <add sel="/wares/ware[@id='plankton']/production[@method='default'][@amount='206'][@time='300']">
-    <secondary>
-      <ware ware="da_laborunion_contracts" amount="5"/>
-    </secondary>
-  </add>
+
   <replace sel="/wares/ware[@id='welfare_bor_artacademy_01']/production[@method='default'][@amount='1'][@time='1155']/primary/ware[@ware='claytronics'][@amount='516']/@amount">860</replace>
   <remove sel="/wares/ware[@id='welfare_bor_artacademy_01']/production[@method='default'][@amount='1'][@time='1155']/primary/ware[@ware='hullparts'][@amount='3775']"/>
   <replace sel="/wares/ware[@id='module_conn_arg_antigonearc_01']/production[@method='default'][@amount='1'][@time='220']/primary/ware[@ware='claytronics'][@amount='19']/@amount">32</replace>
@@ -1883,202 +1463,5 @@
   <remove sel="/wares/ware[@id='module_hab_arg_antigonepillar_01']/production[@method='default'][@amount='1'][@time='530']/primary/ware[@ware='hullparts'][@amount='888']"/>
   <replace sel="/wares/ware[@id='module_hab_arg_antigonespire_01']/production[@method='default'][@amount='1'][@time='848']/primary/ware[@ware='claytronics'][@amount='165']/@amount">280</replace>
   <remove sel="/wares/ware[@id='module_hab_arg_antigonespire_01']/production[@method='default'][@amount='1'][@time='848']/primary/ware[@ware='hullparts'][@amount='1256']"/>
-  <add sel="/wares">
-    <ware id="da_adv_schematics" name="{33232473,0010}" description="{33232473,0011}" factoryname="{33232473,0012}" group="deadair" transport="container" volume="100" tags="container economy">
-      <price min="210" average="280" max="540"/>
-      <production time="900" amount="35" method="default" name="{20206,201}">
-        <effects>
-          <effect type="work" product="5.0" cycle="0.5"/>
-        </effects>
-      </production>
-      <icon active="ware_advancedelectronics" video="ware_advancedelectronics_macro"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="module_gen_prod_da_adv_schematics_01" name="{33232473,0013}" description="{33232473,0014}" transport="container" volume="1" tags="module">
-      <price min="2622767" average="3085608" max="3548449"/>
-      <production time="120" amount="1" method="default" name="{20206,101}">
-        <primary>
-          <ware ware="claytronics" amount="642"/>
-          <ware ware="energycells" amount="965"/>
-        </primary>
-      </production>
-      <production time="120" amount="1" method="terran" name="{20206,901}">
-        <primary>
-          <ware ware="computronicsubstrate" amount="238"/>
-          <ware ware="energycells" amount="688"/>
-          <ware ware="siliconcarbide" amount="155"/>
-        </primary>
-      </production>
-      <component ref="prod_gen_da_adv_schematics_macro"/>
-      <restriction licence="station_gen_advanced"/>
-      <owner faction="alliance"/>
-      <owner faction="antigone"/>
-      <owner faction="argon"/>
-      <owner faction="buccaneers"/>
-      <owner faction="hatikvah"/>
-      <owner faction="holyorder"/>
-      <owner faction="ministry"/>
-      <owner faction="paranid"/>
-      <owner faction="scaleplate"/>
-      <owner faction="teladi"/>
-      <owner faction="trinity"/>
-      <owner faction="court"/>
-      <owner faction="freesplit"/>
-      <owner faction="split"/>
-      <owner faction="pioneers"/>
-      <owner faction="terran"/>
-      <owner faction="boron"/>
-      <owner faction="loanshark"/>
-      <owner faction="scavenger"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="module_gen_prod_da_adv_schematics_02" name="{33232473,0013}" description="{33232473,0014}" transport="container" volume="1" tags="module">
-      <price min="2622767" average="3085608" max="3548449"/>
-      <production time="120" amount="1" method="default" name="{20206,901}">
-        <primary>
-          <ware ware="computronicsubstrate" amount="238"/>
-          <ware ware="energycells" amount="688"/>
-          <ware ware="siliconcarbide" amount="155"/>
-        </primary>
-      </production>
-      <component ref="prod_gen_da_adv_schematics_ter_macro"/>
-      <restriction licence="station_gen_advanced"/>
-      <owner faction="pioneers"/>
-      <owner faction="terran"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="da_mil_schematics" name="{33232473,0015}" description="{33232473,0016}" factoryname="{33232473,0017}" group="deadair" transport="container" volume="50" tags="container economy">
-      <price min="90" average="120" max="250"/>
-      <production time="900" amount="50" method="default" name="{20206,201}">
-        <effects>
-          <effect type="work" product="5.0" cycle="0.5"/>
-        </effects>
-      </production>
-      <icon active="ware_weaponcomponents" video="ware_weaponcomponents_macro"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="module_gen_prod_da_mil_schematics_01" name="{33232473,0018}" description="{33232473,0019}" transport="container" volume="1" tags="module">
-      <price min="2098213" average="2468468" max="2838759"/>
-      <production time="120" amount="1" method="default" name="{20206,101}">
-        <primary>
-          <ware ware="claytronics" amount="513"/>
-          <ware ware="energycells" amount="772"/>
-        </primary>
-      </production>
-      <production time="120" amount="1" method="terran" name="{20206,901}">
-        <primary>
-          <ware ware="computronicsubstrate" amount="190"/>
-          <ware ware="energycells" amount="550"/>
-          <ware ware="siliconcarbide" amount="124"/>
-        </primary>
-      </production>
-      <component ref="prod_gen_da_mil_schematics_macro"/>
-      <restriction licence="station_gen_advanced"/>
-      <owner faction="alliance"/>
-      <owner faction="antigone"/>
-      <owner faction="argon"/>
-      <owner faction="buccaneers"/>
-      <owner faction="hatikvah"/>
-      <owner faction="holyorder"/>
-      <owner faction="ministry"/>
-      <owner faction="paranid"/>
-      <owner faction="scaleplate"/>
-      <owner faction="teladi"/>
-      <owner faction="trinity"/>
-      <owner faction="court"/>
-      <owner faction="freesplit"/>
-      <owner faction="split"/>
-      <owner faction="pioneers"/>
-      <owner faction="terran"/>
-      <owner faction="boron"/>
-      <owner faction="loanshark"/>
-      <owner faction="scavenger"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="module_gen_prod_da_mil_schematics_02" name="{33232473,0018}" description="{33232473,0019}" transport="container" volume="1" tags="module">
-      <price min="2098213" average="2468468" max="2838759"/>
-      <production time="120" amount="1" method="default" name="{20206,901}">
-        <primary>
-          <ware ware="computronicsubstrate" amount="190"/>
-          <ware ware="energycells" amount="550"/>
-          <ware ware="siliconcarbide" amount="124"/>
-        </primary>
-      </production>
-      <component ref="prod_gen_da_mil_schematics_ter_macro"/>
-      <restriction licence="station_gen_advanced"/>
-      <owner faction="pioneers"/>
-      <owner faction="terran"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="da_laborunion_contracts" name="{33232473,0020}" description="{33232473,0021}" factoryname="{33232473,0022}" group="deadair" transport="container" volume="25" tags="container economy">
-      <price min="38" average="50" max="115"/>
-      <production time="900" amount="120" method="default" name="{20206,201}">
-        <effects>
-          <effect type="work" product="5.0" cycle="0.5"/>
-        </effects>
-      </production>
-      <icon active="ware_energycells" video="ware_energycells_macro"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="module_gen_prod_da_laborunion_contracts_01" name="{33232473,0023}" description="{33232473,0024}" transport="container" volume="1" tags="module">
-      <price min="1678570" average="1974774" max="2271007"/>
-      <production time="120" amount="1" method="default" name="{20206,101}">
-        <primary>
-          <ware ware="claytronics" amount="410"/>
-          <ware ware="energycells" amount="617"/>
-        </primary>
-      </production>
-      <production time="120" amount="1" method="terran" name="{20206,901}">
-        <primary>
-          <ware ware="computronicsubstrate" amount="152"/>
-          <ware ware="energycells" amount="440"/>
-          <ware ware="siliconcarbide" amount="99"/>
-        </primary>
-      </production>
-      <component ref="prod_gen_da_laborunion_contracts_macro"/>
-      <restriction licence="station_gen_advanced"/>
-      <owner faction="alliance"/>
-      <owner faction="antigone"/>
-      <owner faction="argon"/>
-      <owner faction="buccaneers"/>
-      <owner faction="hatikvah"/>
-      <owner faction="holyorder"/>
-      <owner faction="ministry"/>
-      <owner faction="paranid"/>
-      <owner faction="scaleplate"/>
-      <owner faction="teladi"/>
-      <owner faction="trinity"/>
-      <owner faction="court"/>
-      <owner faction="freesplit"/>
-      <owner faction="split"/>
-      <owner faction="pioneers"/>
-      <owner faction="terran"/>
-      <owner faction="boron"/>
-      <owner faction="loanshark"/>
-      <owner faction="scavenger"/>
-    </ware>
-  </add>
-  <add sel="/wares">
-    <ware id="module_gen_prod_da_laborunion_contracts_02" name="{33232473,0023}" description="{33232473,0024}" transport="container" volume="1" tags="module">
-      <price min="1678570" average="1974774" max="2271007"/>
-      <production time="120" amount="1" method="default" name="{20206,901}">
-        <primary>
-          <ware ware="computronicsubstrate" amount="152"/>
-          <ware ware="energycells" amount="440"/>
-          <ware ware="siliconcarbide" amount="99"/>
-        </primary>
-      </production>
-      <component ref="prod_gen_da_laborunion_contracts_ter_macro"/>
-      <restriction licence="station_gen_advanced"/>
-      <owner faction="pioneers"/>
-      <owner faction="terran"/>
-    </ware>
-  </add>
+
 </diff>
