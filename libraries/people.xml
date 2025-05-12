@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
+	<!-- VANILLA FACTIONS -->
 	<!-- Argon Default Crew Fill -->
 	<replace sel="/peopledefinitions/people[@id='argon_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
 	<replace sel="/peopledefinitions/people[@id='argon_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
@@ -36,6 +37,29 @@
 	<replace sel="/peopledefinitions/people[@id='teladi_elite_freighter_crew']/fillpercent[@min='90'][@max='80']/@max">90</replace>
 	<replace sel="/peopledefinitions/people[@id='teladi_elite_military_crew']/fillpercent[@min='20'][@max='80']/@min">50</replace>
 	<replace sel="/peopledefinitions/people[@id='teladi_elite_military_crew']/fillpercent[@min='90'][@max='80']/@max">90</replace>
+	<!-- Hatikvah Default Crew Fill -->
+	<replace sel="/peopledefinitions/people[@id='hatikvah_pirate_crew']/fillpercent[@min='20'][@max='60']/@min">50</replace>
+	<replace sel="/peopledefinitions/people[@id='hatikvah_pirate_crew']/fillpercent[@min='20'][@max='75']/@min">75</replace>
+	<replace sel="/peopledefinitions/people[@id='hatikvah_veteran_pirate_crew']/fillpercent[@min='20'][@max='60']/@min">50</replace>
+	<replace sel="/peopledefinitions/people[@id='hatikvah_veteran_pirate_crew']/fillpercent[@min='20'][@max='60']/@max">90</replace>
+	<replace sel="/peopledefinitions/people[@id='hatikvah_elite_pirate_crew']/fillpercent[@min='20'][@max='60']/@min">50</replace>
+	<replace sel="/peopledefinitions/people[@id='hatikvah_elite_pirate_crew']/fillpercent[@min='20'][@max='60']/@max">90</replace>
+	<!-- Scale Plate Pact Default Crew Fill -->
+	<replace sel="/peopledefinitions/people[@id='scaleplate_pirate_crew']/fillpercent[@min='20'][@max='60']/@min">50</replace>
+	<replace sel="/peopledefinitions/people[@id='scaleplate_pirate_crew']/fillpercent[@min='20'][@max='60']/@max">75</replace>
+	<replace sel="/peopledefinitions/people[@id='scaleplate_veteran_pirate_crew']/fillpercent[@min='50'][@max='60']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='scaleplate_veteran_pirate_crew']/fillpercent[@min='50'][@max='60']/@max">90</replace>
+	<replace sel="/peopledefinitions/people[@id='scaleplate_elite_pirate_crew']/fillpercent[@min='20'][@max='60']/@min">40</replace
+	<replace sel="/peopledefinitions/people[@id='scaleplate_elite_pirate_crew']/fillpercent[@min='20'][@max='60']/@max">90</replace>
+	<!-- Duke's Buccaneers Default Crew Fill -->
+	<replace sel="/peopledefinitions/people[@id='buccaneers_pirate_crew']/fillpercent[@min='80'][@max='90']/@min">50</replace>
+	<replace sel="/peopledefinitions/people[@id='buccaneers_pirate_crew']/fillpercent[@min='80'][@max='90']/@max">75</replace>
+	<replace sel="/peopledefinitions/people[@id='buccaneers_veteran_pirate_crew']/fillpercent[@min='85'][@max='95']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='buccaneers_veteran_pirate_crew']/fillpercent[@min='85'][@max='95']/@max">90</replace>
+	<replace sel="/peopledefinitions/people[@id='buccaneers_elite_pirate_crew']/fillpercent[@min='95'][@max='100']/@min">40</replace
+	<replace sel="/peopledefinitions/people[@id='buccaneers_elite_pirate_crew']/fillpercent[@min='95'][@max='100']/@max">90</replace>
+	
+	<!-- SPLIT VENDETTA FACTIONS -->
 	<!-- Zyarth (Split) Default Crew Fill -->
 	<replace sel="/peopledefinitions/people[@id='split_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
 	<replace sel="/peopledefinitions/people[@id='split_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
@@ -58,6 +82,8 @@
 	<replace sel="/peopledefinitions/people[@id='freesplit_elite_freighter_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
 	<replace sel="/peopledefinitions/people[@id='freesplit_elite_military_crew']/fillpercent[@min='20'][@max='75']/@min">50</replace>
 	<replace sel="/peopledefinitions/people[@id='freesplit_elite_military_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
+	
+	<!-- CRADLE OF HUMANITY FACTIONS  -->
 	<!-- Terran Default Crew Fill -->
 	<replace sel="/peopledefinitions/people[@id='terran_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
 	<replace sel="/peopledefinitions/people[@id='terran_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
@@ -82,7 +108,10 @@
 	<replace sel="/peopledefinitions/people[@id='pioneers_elite_freighter_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
 	<replace sel="/peopledefinitions/people[@id='pioneers_elite_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
 	<replace sel="/peopledefinitions/people[@id='pioneers_elite_military_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
-	<!-- Loan Sharks Default Crew Fill -->
+	<!-- Yaki (Cyborg Badasses) - No modifications needed, default definitions fills to 100 anyway, they are not numerous enough, may add later -->
+	
+	<!-- TIDES OF AVARICES FACTIONS  -->
+	<!-- Vigor Syndicate Default Crew Fill -->
 	<replace sel="/peopledefinitions/people[@id='loanshark_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
 	<replace sel="/peopledefinitions/people[@id='loanshark_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
 	<replace sel="/peopledefinitions/people[@id='loanshark_pirate_crew']/fillpercent[@min='30'][@max='75']/@min">50</replace>
@@ -98,7 +127,7 @@
 	<replace sel="/peopledefinitions/people[@id='loanshark_elite_military_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
 	<replace sel="/peopledefinitions/people[@id='loanshark_elite_pirate_crew']/fillpercent[@min='30'][@max='75']/@min">50</replace>
 	<replace sel="/peopledefinitions/people[@id='loanshark_elite_pirate_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
-	<!-- RIP Default Crew Fill -->
+	<!-- Riptide Rakers Default Crew Fill -->
 	<replace sel="/peopledefinitions/people[@id='scavenger_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
 	<replace sel="/peopledefinitions/people[@id='scavenger_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
 	<replace sel="/peopledefinitions/people[@id='scavenger_veteran_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
@@ -109,6 +138,8 @@
 	<replace sel="/peopledefinitions/people[@id='scavenger_elite_freighter_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
 	<replace sel="/peopledefinitions/people[@id='scavenger_elite_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
 	<replace sel="/peopledefinitions/people[@id='scavenger_elite_military_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
+	
+	<!-- KINGDOM'S END FACTIONS  -->
 	<!-- Boron Default Crew Fill -->
 	<replace sel="/peopledefinitions/people[@id='boron_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
 	<replace sel="/peopledefinitions/people[@id='boron_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
@@ -120,4 +151,17 @@
 	<replace sel="/peopledefinitions/people[@id='boron_elite_freighter_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
 	<replace sel="/peopledefinitions/people[@id='boron_elite_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
 	<replace sel="/peopledefinitions/people[@id='boron_elite_military_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
+	
+	<!-- TIMESLINES FACTIONS  -->
+	<!-- Kaori (Quettanauts) Default Crew Fill -->
+	<replace sel="/peopledefinitions/people[@id='kaori_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">30</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_veteran_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_veteran_freighter_crew']/fillpercent[@min='75'][@max='75']/@max">90</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_veteran_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_veteran_military_crew']/fillpercent[@min='75'][@max='75']/@max">90</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_elite_freighter_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_elite_freighter_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_elite_military_crew']/fillpercent[@min='20'][@max='75']/@min">40</replace>
+	<replace sel="/peopledefinitions/people[@id='kaori_elite_military_crew']/fillpercent[@min='90'][@max='75']/@max">90</replace>
 </diff>

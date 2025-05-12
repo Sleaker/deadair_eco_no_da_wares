@@ -7,9 +7,13 @@ There is no more DA Wares in this fork, this means :
 - No Advanced Schematics
 and none of their associated production module
 
-I want to thank DeadAir a lot for all his work by the way !
+### More ?
+- Adjusted crew filling for AI ships, so ships can be boarded before late game
+- Added missing factions to the crew filling script (like HAT, SCA, DUK, QUE)
 
-===
+## Great thanks to DeadAir
+I want to thank DeadAir a lot for all his work !
+
 # Original DeadAir Eco README
 
 ## Dynamic Universe
