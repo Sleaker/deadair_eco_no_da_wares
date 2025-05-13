@@ -1,20 +1,23 @@
 # DeadAir Eco (No DA Wares)
 
-## What's different comparing to DeadAir Eco ?
-There is no more DA Wares in this fork, this means : 
+## What's different comparing to DeadAir Eco v1.13HF1 ?
+**v1.13HF1** There is no more DA Wares in this fork, this means : 
 - No Labor Union Contracts
 - No Military Schematics
 - No Advanced Schematics
 and none of their associated production module
 
 ### More ?
-- Adjusted crew filling for AI ships, so ships can be boarded before late game
-- Added missing factions to the crew filling script (like HAT, SCA, DUK, QUE)
+- **v1.14** Adjusted crew filling for AI ships, so ships can be boarded before late game 
+- **v1.14** Added missing factions to the crew filling script (like HAT, SCA, DUK, QUE) 
+- **v1.15** Redistributed crew composition for Quettanauts ships
+- **v1.16** Reduced the amount of Water for Borons to build their station module (applied à 0,28 factor, has some other factions) 
 
 ## Great thanks to DeadAir
 I want to thank DeadAir a lot for all his work !
 
-# Original DeadAir Eco README
+# Updated DeadAir Eco README
+**Changes from this fork are striked or bold**
 
 ## Dynamic Universe
 Minimalized diff mod for economy changes in X4. Readme is often out of date on features or numbers so feel free to contact me on the Egosoft Discord or check patch notes on pushes.
@@ -58,9 +61,9 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - Increased default level of drone loadout to prevent ships without enough drones to function effectively.
 ## Libraries\People.xml
 - Increased fill percentage of certain NPC crews.
-- Ships with Regular crews will have 50%+ of the ships capacity.
-- Ships with Veteran crews will have 75%+ of the ships capacity.
-- Ships with Elite crews will have 90%+ of the ships capacity.
+- Ships with Regular crews will have ~50%+~ **30%+** of the ships capacity.
+- Ships with Veteran crews will have ~75%+~ **40%+** of the ships capacity.
+- Ships with Elite crews will have ~90%+~ **50%+** of the ships capacity.
 - The higher importance the ship is to the faction, the higher the amount and ability of the crew.
 ## Libaries\Region_Definitions.xml
 - Increased resource yields of several areas that are vital to the factions economic stability.
@@ -77,6 +80,7 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - Adds a separate production method of energy cells for Xenon with values balanced for lack of workforce.
 - Reduces construction time of modules so that the majority of the wait is for resources.
 - Removes hullparts from station construction resources. This reduces the chance of a hull part shortage from building ships causing an entire economy to seize. Amount of claytronics and energy cells increased to match pre-change average credit cost.
+- **Reduced the amount of water for Boron to build their station modules**
 ## Md\Factionlogic_economy.xml
 - Stations built after game start by NPC will have more modules.
 ## Md\Factionlogic_stations.xml
