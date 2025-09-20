@@ -12,7 +12,7 @@ and none of their associated production module
 - **v1.14** Added missing factions to the crew filling script (like HAT, SCA, DUK, QUE) 
 - **v1.15** Redistributed crew composition for Quettanauts ships
 - **v1.16** Reduced the amount of Water for Borons to build their station module (applied à 0,28 factor, has some other factions) 
-- **v1.17** Fixed crew filling references
+- **v1.17** Fixed crew fill replace values not applying properly, fixed quettanauts default crew not applying, bump claytronics from recycling slightly more, fix some boron module references
 
 ## Great thanks to DeadAir
 I want to thank DeadAir a lot for all his work !
