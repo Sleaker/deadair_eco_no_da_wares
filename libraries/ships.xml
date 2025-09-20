@@ -140,9 +140,9 @@
 	<replace sel="/ships/ship[@id='boron_corvette_m']/people[@ref='boron_military_crew']/@ref">boron_veteran_military_crew</replace>
 
 	<!-- Kaori (Quettanauts) Default Crew Changes -->
-	<replace sel="/ships/ship[@id='kaori_builder_xl']/people[@ref='pioneers_freighter_crew']/@ref">kaori_elite_freighter_crew</replace>
-	<replace sel="/ships/ship[@id='kaori_trader_container_l']/people[@ref='pioneers_freighter_crew']/@ref">kaori_veteran_freighter_crew</replace>
-	<replace sel="/ships/ship[@id='kaori_miner_solid_m']/people[@ref='pioneers_freighter_crew']/@ref">kaori_veteran_freighter_crew</replace>
-	<replace sel="/ships/ship[@id='kaori_miner_liquid_m']/people[@ref='pioneers_freighter_crew']/@ref">kaori_veteran_freighter_crew</replace>
-	<replace sel="/ships/ship[@id='kaori_corvette_m']/people[@ref='pioneers_elite_military_crew']/@ref">kaori_veteran_military_crew</replace>
+	<replace sel="/ships/ship[@id='kaori_builder_xl']/people[@ref='kaori_freighter_crew']/@ref">kaori_elite_freighter_crew</replace>
+	<replace sel="/ships/ship[@id='kaori_trader_container_l']/people[@ref='kaori_freighter_crew']/@ref">kaori_veteran_freighter_crew</replace>
+	<replace sel="/ships/ship[@id='kaori_miner_solid_m']/people[@ref='kaori_freighter_crew']/@ref">kaori_veteran_freighter_crew</replace>
+	<replace sel="/ships/ship[@id='kaori_miner_liquid_m']/people[@ref='kaori_freighter_crew']/@ref">kaori_veteran_freighter_crew</replace>
+	<replace sel="/ships/ship[@id='kaori_corvette_m']/people[@ref='kaori_military_crew']/@ref">kaori_veteran_military_crew</replace>
 </diff>
