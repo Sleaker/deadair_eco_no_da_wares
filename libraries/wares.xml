@@ -758,6 +758,22 @@
 	<replace sel="/wares/ware[@id='module_arg_conn_cross_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='12']/@amount">1</replace>
 	<replace sel="/wares/ware[@id='module_arg_conn_cross_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='24']/@amount">5</replace>
 	<remove sel="/wares/ware[@id='module_arg_conn_cross_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='hullparts'][@amount='44']"/>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_02']/production[@method='default'][@amount='1'][@time='46']/@time">30</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_02']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='12']/@amount">1</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_02']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='23']/@amount">5</replace>
+	<remove sel="/wares/ware[@id='module_arg_conn_cross_02']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='hullparts'][@amount='43']"/>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_03']/production[@method='default'][@amount='1'][@time='44']/@time">30</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_03']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='11']/@amount">1</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_03']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='20']/@amount">4</replace>
+	<remove sel="/wares/ware[@id='module_arg_conn_cross_03']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='hullparts'][@amount='42']"/>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_04']/production[@method='default'][@amount='1'][@time='42']/@time">30</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_04']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='10']/@amount">1</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_04']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='20']/@amount">4</replace>
+	<remove sel="/wares/ware[@id='module_arg_conn_cross_04']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='hullparts'][@amount='41']"/>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_05']/production[@method='default'][@amount='1'][@time='40']/@time">30</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_05']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='9']/@amount">1</replace>
+	<replace sel="/wares/ware[@id='module_arg_conn_cross_05']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='15']/@amount">3</replace>
+	<remove sel="/wares/ware[@id='module_arg_conn_cross_05']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='hullparts'][@amount='40']"/>
 	<replace sel="/wares/ware[@id='module_arg_conn_vertical_01']/production[@method='default'][@amount='1'][@time='38']/@time">30</replace>
 	<replace sel="/wares/ware[@id='module_arg_conn_vertical_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='claytronics'][@amount='10']/@amount">1</replace>
 	<replace sel="/wares/ware[@id='module_arg_conn_vertical_01']/production[@method='default'][@amount='1'][@time='30']/primary/ware[@ware='energycells'][@amount='20']/@amount">5</replace>
