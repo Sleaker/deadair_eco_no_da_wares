@@ -1,21 +1,32 @@
 # DeadAir Eco (No DA Wares)
 
-## What's different comparing to DeadAir Eco v1.13HF1 ?
-**v1.13HF1** There is no more DA Wares in this fork, this means : 
+## Big thanks to DeadAir
+I want to thank DeadAir a lot for all his work !
+
+There is no more DA Wares in this fork, this means : 
 - No Labor Union Contracts
 - No Military Schematics
 - No Advanced Schematics
-and none of their associated production module
+- none of their associated production module
 
-### More ?
-- **v1.14** Adjusted crew filling for AI ships, so ships can be boarded before late game 
-- **v1.14** Added missing factions to the crew filling script (like HAT, SCA, DUK, QUE) 
-- **v1.15** Redistributed crew composition for Quettanauts ships
-- **v1.16** Reduced the amount of Water for Borons to build their station module (applied à 0,28 factor, has some other factions) 
-- **v1.17** Fixed crew fill replace values not applying properly, fixed quettanauts default crew not applying, bump claytronics from recycling slightly more, fix some boron module references
+Note: If using DeadAir Script - it's suggested to use my fork without DA Wares: [DeadAir Scripts - No DA Wares](https://github.com/Sleaker/deadair_scripts_no_da_wares)
 
-## Great thanks to DeadAir
-I want to thank DeadAir a lot for all his work !
+## Changelog
+
+### v1.17
+- Fixed crew fill replace values not applying properly from 1.14
+- Fixed quettanauts default crew not applying
+- Bump claytronics from recycling slightly more
+- Fix some boron module adjustments from 1.16 not applying
+### v1.16
+- Reduced the amount of Water for Borons to build their station module (applied à 0,28 factor, has some other factions) 
+### v1.15
+- Redistributed crew composition for Quettanauts ships
+### v1.14
+- Adjusted crew filling for AI ships, so ships can be boarded before late game 
+- Added missing factions to the crew filling script (like HAT, SCA, DUK, QUE) 
+### v1.13HF1
+- DA Wares removed
 
 # Updated DeadAir Eco README
 **Changes from this fork are striked or bold**
@@ -53,8 +64,6 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - Attempted to reduce NPC ships loading up on deployables that serve no purpose other than to tank the economy.
 ## Libraries\mapdefaults.xml
 - Adjusts sector economy ratings to remove undocumented effect on station size generation.
-## <del>Libraries\Modulegroups.xml</del>
-- <del>Added new groups for Advanced Schematics, Military Schematics, and Labor Union Contracts.</del>
 ## Libraries\Modules.xml
 - Increased amount of modules that NPC are allowed to build on a single station. This greatly reduces the number of stations required for a functional economy.
 ## Libraries\Parameters.xml
@@ -76,8 +85,6 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - Adjusts ware pricing to balance credits / m3 so traders will be rewarded for prioritizing shipping needed resources.
 - Adjusts ware production cycles to standard increments. Scales required resources to match ratio from vanilla (Station calculator will still be accurate for ratio of modules not including workforce).
 - Adjusts workforce effects to be more pronounced. This allows fewer stations for increased performance and increases the importance of food and medical supplies to a healthy economy.
-- <del>Adds three new types of wares (Advanced Schematics, Military Schematics, and Labor Union Contracts). These are using placeholder station modules for now. The wares are secondary resources that stations can use to double production amount and are produced in modules. The modules produce a very small amount without workforce but have the highest workforce impact of any wares in the game.</del>
-- <del>The amount of secondary resources required at each station is balanced based on ware type and potential profit of the production cycles.</del>
 - Adds a separate production method of energy cells for Xenon with values balanced for lack of workforce.
 - Reduces construction time of modules so that the majority of the wait is for resources.
 - Removes hullparts from station construction resources. This reduces the chance of a hull part shortage from building ships causing an entire economy to seize. Amount of claytronics and energy cells increased to match pre-change average credit cost.
