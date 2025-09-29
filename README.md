@@ -16,8 +16,9 @@ Note: If using DeadAir Script - it's suggested to use my fork without DA Wares: 
 ### v1.17
 - Fixed crew fill replace values not applying properly from 1.14
 - Fixed quettanauts default crew not applying
-- Bump claytronics from recycling slightly more
+- Bump claytronics from recycling (now 2x vanilla)
 - Fix some boron module adjustments from 1.16 not applying
+- Add missing argon connector module patches to match cost and time as other connector modules
 ### v1.16
 - Reduced the amount of Water for Borons to build their station module (applied à 0,28 factor, has some other factions) 
 ### v1.15
@@ -109,5 +110,3 @@ Minimalized diff mod for economy changes in X4. Readme is often out of date on f
 - It is very helpful to have a debug log with the debug options enabled.
 - Include your mod list in any bug reports. There are a lot of poorly written mods out there.
 - Best place to contact me is via @ on Egosoft Discord modding channel.
-## Why the mods were combined
-The more separate mods I maintain, the more work it is and the more things I have to consider when making changes which greatly limits potential changes. I am not a programmer by trade and am not supported by anyone. This is purely an interest and hobby of mine. If you like some changes but not others, there are ways to remove some of them without affecting other changes.

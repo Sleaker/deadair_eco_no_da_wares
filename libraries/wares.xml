@@ -894,10 +894,13 @@
 	<remove sel="/wares/ware[@id='module_arg_stor_tradestation_l_01']/production[@method='default'][@amount='1'][@time='310']/primary/ware[@ware='hullparts'][@amount='449']"/>
 	<replace sel="/wares/ware[@id='module_conn_arg_antigonearc_01']/production[@method='default'][@amount='1'][@time='220']/primary/ware[@ware='claytronics'][@amount='19']/@amount">32</replace>
 	<remove sel="/wares/ware[@id='module_conn_arg_antigonearc_01']/production[@method='default'][@amount='1'][@time='220']/primary/ware[@ware='hullparts'][@amount='142']"/>
+	<replace sel="/wares/ware[@id='module_conn_arg_antigonearc_01']/production[@method='default'][@amount='1'][@time='220']/@time">30</replace>
 	<replace sel="/wares/ware[@id='module_conn_arg_antigonescaffolding_01']/production[@method='default'][@amount='1'][@time='302']/primary/ware[@ware='claytronics'][@amount='21']/@amount">36</replace>
 	<remove sel="/wares/ware[@id='module_conn_arg_antigonescaffolding_01']/production[@method='default'][@amount='1'][@time='302']/primary/ware[@ware='hullparts'][@amount='159']"/>
+	<replace sel="/wares/ware[@id='module_conn_arg_antigonescaffolding_01']/production[@method='default'][@amount='1'][@time='302']/@time">30</replace>
 	<replace sel="/wares/ware[@id='module_conn_arg_antigonestraight_01']/production[@method='default'][@amount='1'][@time='275']/primary/ware[@ware='claytronics'][@amount='15']/@amount">26</replace>
 	<remove sel="/wares/ware[@id='module_conn_arg_antigonestraight_01']/production[@method='default'][@amount='1'][@time='275']/primary/ware[@ware='hullparts'][@amount='112']"/>
+	<replace sel="/wares/ware[@id='module_conn_arg_antigonestraight_01']/production[@method='default'][@amount='1'][@time='275']/@time">30</replace>
 	<replace sel="/wares/ware[@id='module_hab_arg_antigonepillar_01']/production[@method='default'][@amount='1'][@time='530']/primary/ware[@ware='claytronics'][@amount='117']/@amount">198</replace>
 	<remove sel="/wares/ware[@id='module_hab_arg_antigonepillar_01']/production[@method='default'][@amount='1'][@time='530']/primary/ware[@ware='hullparts'][@amount='888']"/>
 	<replace sel="/wares/ware[@id='module_hab_arg_antigonespire_01']/production[@method='default'][@amount='1'][@time='848']/primary/ware[@ware='claytronics'][@amount='165']/@amount">280</replace>
