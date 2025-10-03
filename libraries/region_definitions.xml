@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
+  <!-- Default yield values for pre-defined fields -->
   <replace sel="/regions/region[@name='p1_40km_asteroid_field']/resources/resource[@ware='ore']/@yield">medplus</replace>
   <replace sel="/regions/region[@name='p1_40km_asteroid_field']/resources/resource[@ware='silicon']/@yield">medplus</replace>
   <replace sel="/regions/region[@name='p1_40km_asteroid_field']/resources/resource[@ware='nividium']/@yield">medplus</replace>
@@ -16,8 +17,10 @@
   <replace sel="/regions/region[@name='region_highyield_ore']/boundary[@class='cylinder']/size/@r">10000</replace>
   <replace sel="/regions/region[@name='region_highyield_silicon']/boundary[@class='cylinder']/size/@r">10000</replace>
   <replace sel="/regions/region[@name='region_highyield_nividium']/boundary[@class='cylinder']/size/@r">10000</replace>
+  <!-- Matrix #9 -->
   <replace sel="/regions/region[@name='region_cluster_17_sector_001']/resources/resource[@ware='ore']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_17_sector_001']/resources/resource[@ware='silicon']/@yield">lowplus</replace>
+  <!-- Atiya's Misfortune I -->
   <add sel="/regions/region[@name='region_cluster_26_sector_001']/fields">
     <asteroid groupref="asteroid_silicon_m" densityfactor="3.0" noisescale="25000" seed="26021984" minnoisevalue="0.75" maxnoisevalue="1"/>
   </add>
@@ -28,41 +31,40 @@
   <add sel="/regions/region[@name='region_cluster_26_sector_001']/resources">
     <resource ware="silicon" yield="medplus"/>
   </add>
+
+  <!-- Antigone Memorial -->
   <replace sel="/regions/region[@name='region_cluster_28_sector_001']/resources/resource[@ware='ice']/@yield">medium</replace>
   <replace sel="/regions/region[@name='regionpart2_cluster_28_sector_001']/resources/resource[@ware='ore']/@yield">medlow</replace>
   <replace sel="/regions/region[@name='regionpart2_cluster_28_sector_001']/resources/resource[@ware='silicon']/@yield">medlow</replace>
   <replace sel="/regions/region[@name='regionpart2_cluster_28_sector_001']/resources/resource[@ware='ice']/@yield">medium</replace>
+
+  <!-- Matrix #79B -->
   <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
     <asteroid groupref="asteroid_ore_l" densityfactor="0.75" noisescale="50000" seed="1309" minnoisevalue="0.65" maxnoisevalue="1"/>
-  </add>
-  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
     <asteroid groupref="asteroid_silicon_l" densityfactor="0.75" noisescale="50000" seed="1309" minnoisevalue="0.65" maxnoisevalue="1"/>
-  </add>
-  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
     <asteroid groupref="asteroid_ore_m" densityfactor="1.0" noisescale="50000" seed="1309" minnoisevalue="0.625" maxnoisevalue="1"/>
-  </add>
-  <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
     <asteroid groupref="asteroid_silicon_m" densityfactor="1.0" noisescale="50000" seed="1309" minnoisevalue="0.625" maxnoisevalue="1"/>
   </add>
   <add sel="/regions/region[@name='region_cluster_33_sector_001']/resources">
       <resource ware="ore" yield="medium"/>
       <resource ware="silicon" yield="medium"/>
   </add>
+  <!-- Cardinal's Redress -->
   <replace sel="/regions/region[@name='region_cluster_36_sector_001']/fields/nebula[@ref='fogpattern_v2_macro']/@resources">methane hydrogen helium</replace>
   <replace sel="/regions/region[@name='region_cluster_36_sector_001']/resources/resource[@ware='ore']/@yield">medplus</replace>
   <replace sel="/regions/region[@name='region_cluster_36_sector_001']/resources/resource[@ware='silicon']/@yield">medium</replace>
   <add sel="/regions/region[@name='region_cluster_36_sector_001']/resources">
     <resource ware="methane" yield="medium"/>
-  </add>
-  <add sel="/regions/region[@name='region_cluster_36_sector_001']/resources">
     <resource ware="helium" yield="medium"/>
   </add>
+  <!-- Trinity Sanctum VII -->
   <replace sel="/regions/region[@name='region_cluster_47_sector_001']/resources/resource[@ware='ore']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_47_sector_001']/resources/resource[@ware='silicon']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_47_sector_001']/resources/resource[@ware='ice']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_47_sector_001b']/resources/resource[@ware='ore']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_47_sector_001b']/resources/resource[@ware='silicon']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_47_sector_001b']/resources/resource[@ware='ice']/@yield">lowplus</replace>
+  <!-- Tharka's Ravine XVI (Split) -->
   <replace sel="/regions/region[@name='region_cluster_410_sector_001']/resources/resource[@ware='ore']/@yield">medium</replace>
   <replace sel="/regions/region[@name='region_cluster_410_sector_001']/resources/resource[@ware='silicon']/@yield">medium</replace>
   <replace sel="/regions/region[@name='region_cluster_410_sector_001']/resources/resource[@ware='ice']/@yield">medium</replace>
@@ -70,25 +72,31 @@
   <replace sel="/regions/region[@name='region_cluster_415_sector_001']/resources/resource[@ware='silicon']/@yield">medium</replace>
   <replace sel="/regions/region[@name='region_cluster_415_sector_001']/resources/resource[@ware='ice']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_415_sector_001']/resources/resource[@ware='nividium']/@yield">medium</replace>
+  <!-- Family Nhuut (Split) -->
   <replace sel="/regions/region[@name='region_cluster_418_sector_001_d']/resources/resource[@ware='silicon']/@yield">highlow</replace>
   <replace sel="/regions/region[@name='region_cluster_418_sector_001_d']/resources/resource[@ware='ice']/@yield">medium</replace>
   <replace sel="/regions/region[@name='region_cluster_418_sector_001_d']/resources/resource[@ware='hydrogen']/@yield">highlow</replace>
   <replace sel="/regions/region[@name='region_cluster_418_sector_001_d']/resources/resource[@ware='helium']/@yield">highlow</replace>
   <replace sel="/regions/region[@name='region_cluster_418_sector_001_d']/resources/resource[@ware='methane']/@yield">highlow</replace>
+  <!-- Emperor's Pride VI (Split) -->
   <replace sel="/regions/region[@name='region_cluster_424_sector_002']/resources/resource[@ware='ore']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='region_cluster_424_sector_002']/resources/resource[@ware='silicon']/@yield">medium</replace>
+  <!-- Asteroid Belt (Terran) -->
   <replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='ore']/@yield">medlow</replace>
   <replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='ice']/@yield">lowplus</replace>
   <replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='hydrogen']/@yield">medplus</replace>
   <replace sel="/regions/region[@name='asteroidbelt_main']/resources/resource[@ware='methane']/@yield">medplus</replace>
+  <!-- Oort Cloud (Terran) -->
   <replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='ore']/@yield">medium</replace>
   <replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='silicon']/@yield">medium</replace>
   <replace sel="/regions/region[@name='oort_field']/resources/resource[@ware='ice']/@yield">medium</replace>
+  <!-- Gaian Prophecy (Terran) -->
   <replace sel="/regions/region[@name='cluster114_region01']/resources/resource[@ware='ore']/@yield">medium</replace>
   <replace sel="/regions/region[@name='cluster114_region01']/resources/resource[@ware='silicon']/@yield">medhigh</replace>
   <replace sel="/regions/region[@name='cluster114_region01']/resources/resource[@ware='hydrogen']/@yield">medhigh</replace>
   <replace sel="/regions/region[@name='cluster114_region01']/resources/resource[@ware='helium']/@yield">medhigh</replace>
   <replace sel="/regions/region[@name='cluster114_region01']/resources/resource[@ware='methane']/@yield">medhigh</replace>
+  <!-- Savage Spur I (Terran) -->
   <replace sel="/regions/region[@name='cluster112_s1_region01']/resources/resource[@ware='ore']/@yield">medium</replace>
   <replace sel="/regions/region[@name='cluster112_s1_region01']/resources/resource[@ware='silicon']/@yield">medhigh</replace>
   <replace sel="/regions/region[@name='cluster112_s2_region01']/resources/resource[@ware='ore']/@yield">medium</replace>
