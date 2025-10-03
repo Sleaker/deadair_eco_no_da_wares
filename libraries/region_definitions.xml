@@ -44,11 +44,9 @@
   <add sel="/regions/region[@name='region_cluster_33_sector_001']/fields">
     <asteroid groupref="asteroid_silicon_m" densityfactor="1.0" noisescale="50000" seed="1309" minnoisevalue="0.625" maxnoisevalue="1"/>
   </add>
-  <add sel="/regions/region[@name='region_cluster_33_sector_001']">
-    <resources>
+  <add sel="/regions/region[@name='region_cluster_33_sector_001']/resources">
       <resource ware="ore" yield="medium"/>
       <resource ware="silicon" yield="medium"/>
-    </resources>
   </add>
   <replace sel="/regions/region[@name='region_cluster_36_sector_001']/fields/nebula[@ref='fogpattern_v2_macro']/@resources">methane hydrogen helium</replace>
   <replace sel="/regions/region[@name='region_cluster_36_sector_001']/resources/resource[@ware='ore']/@yield">medplus</replace>
