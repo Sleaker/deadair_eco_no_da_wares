@@ -2,50 +2,28 @@
 <diff>
   <add sel="/baskets/basket[@id='bio_argon'][@name='Argon Bio Wares']/wares">
     <ware ware="foodrations"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_argon'][@name='Argon Bio Wares']/wares">
     <ware ware="medicalsupplies"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_argon'][@name='Argon Bio Wares']/wares">
     <ware ware="water"/>
   </add>
 
   <add sel="/baskets/basket[@id='bio_paranid'][@name='Paranid Bio Wares']/wares">
     <ware ware="medicalsupplies"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_paranid'][@name='Paranid Bio Wares']/wares">
     <ware ware="sojahusk"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_paranid'][@name='Paranid Bio Wares']/wares">
     <ware ware="water"/>
   </add>
 
   <add sel="/baskets/basket[@id='bio_teladi'][@name='Teladi Bio Wares']/wares">
     <ware ware="medicalsupplies"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_teladi'][@name='Teladi Bio Wares']/wares">
     <ware ware="nostropoil"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_teladi'][@name='Teladi Bio Wares']/wares">
     <ware ware="water"/>
   </add>
 
   <add sel="/baskets/basket[@id='construction_ships'][@name='Ship Construction Wares']/wares">
     <ware ware="advancedcomposites"/>
-  </add>
-  <add sel="/baskets/basket[@id='construction_ships'][@name='Ship Construction Wares']/wares">
     <ware ware="dronecomponents"/>
-  </add>
-  <add sel="/baskets/basket[@id='construction_ships'][@name='Ship Construction Wares']/wares">
     <ware ware="fieldcoils"/>
-  </add>
-  <add sel="/baskets/basket[@id='construction_ships'][@name='Ship Construction Wares']/wares">
     <ware ware="scanningarrays"/>
-  </add>
-  <add sel="/baskets/basket[@id='construction_ships'][@name='Ship Construction Wares']/wares">
     <ware ware="shieldcomponents"/>
-  </add>
-  <add sel="/baskets/basket[@id='construction_ships'][@name='Ship Construction Wares']/wares">
     <ware ware="turretcomponents"/>
   </add>
   <replace sel="/baskets/basket[@id='construction_stations'][@name='Station Construction Wares']/wares/ware[@ware='hullparts']/@ware">energycells</replace>
@@ -71,8 +49,6 @@
 
   <add sel="/baskets/basket[@id='bio_terran'][@name='Terran Bio Wares']/wares">
     <ware ware="terranmre"/>
-  </add>
-  <add sel="/baskets/basket[@id='bio_terran'][@name='Terran Bio Wares']/wares">
     <ware ware="medicalsupplies"/>
   </add>
  
