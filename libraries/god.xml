@@ -1027,5 +1027,95 @@
   <add sel="/god/products/product[@id='bor_weaponcomponents'][@ware='weaponcomponents'][@owner='boron'][@type='factory']/module/select[@ware='weaponcomponents'][@race='boron']" type="@faction">boron</add>
   <remove sel="/god/products/product[@id='bor_plankton'][@ware='plankton'][@owner='boron'][@type='factory']/location[@faction='boron'][@class='galaxy'][@macro='xu_ep2_universe_macro']/economy[@max='0.5']"/>
   <add sel="/god/products/product[@id='bor_plankton'][@ware='plankton'][@owner='boron'][@type='factory']/module/select[@ware='plankton'][@race='boron']" type="@faction">boron</add>
- 
+
+  <!-- Incorporate Added Trade stations from Trey's to help with pathing -->
+  <add sel="/god/stations">
+    <!--Family Zhin-->
+    <station id="tradestation_split_01_DAE" race="split" owner="split" type="tradingstation">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_401_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="split" tags="[tradestation]" />
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
+
+    <!--Thuruk's Demise III-->
+    <station id="tradestation_freesplit_01_DAE" race="split" owner="freesplit" type="tradingstation">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_408_sector001_macro" matchextension="false" />
+      <station>
+        <select faction="freesplit" tags="[tradestation]" />
+        <loadout>
+          <level exact="0.75" />
+        </loadout>
+      </station>
+    </station>
+
+    <!--Hewa's Twin IV The Cove-->
+    <station id="piratebase_scaleplate_04_DAE" race="teladi" owner="scaleplate" type="piratebase">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_42_sector002_macro" matchextension="false">
+      </location>
+      <station>
+        <select faction="scaleplate" tags="[piratebase]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+
+    <!--Moo-Kye's Revenge-->
+    <station id="piratebase_scaleplate_05_DAE" race="teladi" owner="scaleplate" type="piratebase">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_710_sector001_macro" matchextension="false">
+      </location>
+      <station>
+        <select faction="scaleplate" tags="[piratebase]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+
+    <!--Mi Ton's Refuge-->
+    <station id="piratebase_scaleplate_06_DAE" race="teladi" owner="scaleplate" type="piratebase">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_711_sector001_macro" matchextension="false">
+      </location>
+      <station>
+        <select faction="scaleplate" tags="[piratebase]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+
+    <!--Loomanckstrat's Legacy-->
+    <station id="piratebase_scaleplate_07_DAE" race="teladi" owner="scaleplate" type="piratebase">
+      <quotas>
+        <quota galaxy="1" sector="1" />
+      </quotas>
+      <location class="sector" macro="cluster_712_sector001_macro" matchextension="false">
+      </location>
+      <station>
+        <select faction="scaleplate" tags="[piratebase]" />
+        <loadout>
+          <level exact="1.0" />
+        </loadout>
+      </station>
+    </station>
+  </add>
 </diff>
