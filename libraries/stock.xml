@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
     <!-- Remove seminar baskets from traders and use direct ware stocks with different chances -->
-    <remove sel='/stocks/stock[/@id="default_trader"]/basket[@ref="seminars_trade"]'/>
+    <remove sel="/stocks/stock[@id='default_trader']/basket[@ref='seminars_trade']"/>
     <add sel='/stocks/stock[@id="default_trader"]'>
         <ware ref="inv_seminar_piloting_0" min="2" max="5" chance="100"/>
         <ware ref="inv_seminar_piloting_1" min="1" max="3" chance="100"/>
@@ -14,7 +14,7 @@
         <ware ref="inv_seminar_management_3" min="0" max="1" chance="30"/>
         <ware ref="inv_seminar_management_4" min="0" max="1" chance="15"/>
     </add>
-    <remove sel='/stocks/stock[/@id="civilian_trader"]/basket[@ref="seminars_trade"]'/>
+    <remove sel='/stocks/stock[@id="civilian_trader"]/basket[@ref="seminars_trade"]'/>
     <add sel='/stocks/stock[@id="civilian_trader"]'>
         <ware ref="inv_seminar_piloting_0" min="2" max="5" chance="100"/>
         <ware ref="inv_seminar_piloting_1" min="1" max="3" chance="100"/>
@@ -27,7 +27,7 @@
         <ware ref="inv_seminar_management_3" min="0" max="1" chance="30"/>
         <ware ref="inv_seminar_management_4" min="0" max="1" chance="15"/>
     </add>
-    <remove sel='/stocks/stock[/@id="pirate_trader"]/basket[@ref="seminars_trade"]'/>
+    <remove sel='/stocks/stock[@id="pirate_trader"]/basket[@ref="seminars_trade"]'/>
     <add sel='/stocks/stock[@id="pirate_trader"]'>
         <ware ref="inv_seminar_piloting_0" min="2" max="5" chance="100"/>
         <ware ref="inv_seminar_piloting_1" min="1" max="3" chance="100"/>

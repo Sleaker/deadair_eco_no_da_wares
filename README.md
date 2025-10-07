@@ -13,6 +13,10 @@ Note: If using DeadAir Script - it's suggested to use my fork without DA Wares: 
 
 ## Changelog
 
+### v1.18
+- Add inv wares to price adjustments from Treys
+- Add seminars to traders
+
 ### v1.17
 - Fixed crew fill replace values not applying properly from 1.14
 - Fixed quettanauts default crew not applying
